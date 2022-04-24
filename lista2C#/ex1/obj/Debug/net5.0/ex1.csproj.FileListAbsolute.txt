@@ -1,0 +1,16 @@
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\obj\Debug\net5.0\ex1.csproj.AssemblyReference.cache
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\obj\Debug\net5.0\ex1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\obj\Debug\net5.0\ex1.AssemblyInfoInputs.cache
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\obj\Debug\net5.0\ex1.AssemblyInfo.cs
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\obj\Debug\net5.0\ex1.csproj.CoreCompileInputs.cache
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\bin\Debug\net5.0\ex1.exe
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\bin\Debug\net5.0\ex1.deps.json
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\bin\Debug\net5.0\ex1.runtimeconfig.json
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\bin\Debug\net5.0\ex1.runtimeconfig.dev.json
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\bin\Debug\net5.0\ex1.dll
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\bin\Debug\net5.0\ref\ex1.dll
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\bin\Debug\net5.0\ex1.pdb
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\obj\Debug\net5.0\ex1.dll
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\obj\Debug\net5.0\ref\ex1.dll
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\obj\Debug\net5.0\ex1.pdb
+C:\Users\Amishel\Documents\GitHub\aulas\tropTech\lista2C#\ex1\obj\Debug\net5.0\ex1.genruntimeconfig.cache
