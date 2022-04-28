@@ -1,0 +1,16 @@
+D:\GitHub\aulas\tropTech\lista4C#\ex3\obj\Debug\net5.0\ex3.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\lista4C#\ex3\obj\Debug\net5.0\ex3.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\lista4C#\ex3\obj\Debug\net5.0\ex3.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\lista4C#\ex3\obj\Debug\net5.0\ex3.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\lista4C#\ex3\obj\Debug\net5.0\ex3.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\lista4C#\ex3\bin\Debug\net5.0\ex3.exe
+D:\GitHub\aulas\tropTech\lista4C#\ex3\bin\Debug\net5.0\ex3.deps.json
+D:\GitHub\aulas\tropTech\lista4C#\ex3\bin\Debug\net5.0\ex3.runtimeconfig.json
+D:\GitHub\aulas\tropTech\lista4C#\ex3\bin\Debug\net5.0\ex3.runtimeconfig.dev.json
+D:\GitHub\aulas\tropTech\lista4C#\ex3\bin\Debug\net5.0\ex3.dll
+D:\GitHub\aulas\tropTech\lista4C#\ex3\bin\Debug\net5.0\ref\ex3.dll
+D:\GitHub\aulas\tropTech\lista4C#\ex3\bin\Debug\net5.0\ex3.pdb
+D:\GitHub\aulas\tropTech\lista4C#\ex3\obj\Debug\net5.0\ex3.dll
+D:\GitHub\aulas\tropTech\lista4C#\ex3\obj\Debug\net5.0\ref\ex3.dll
+D:\GitHub\aulas\tropTech\lista4C#\ex3\obj\Debug\net5.0\ex3.pdb
+D:\GitHub\aulas\tropTech\lista4C#\ex3\obj\Debug\net5.0\ex3.genruntimeconfig.cache
