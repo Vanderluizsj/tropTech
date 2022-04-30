@@ -11,6 +11,8 @@ namespace VanderluizProjeto3
 		var controleLogin = 0;
 		var controleSenha = 0;
 		var tentativas = 3;
+		int opcao;
+		int operacao;
 		
         //-----------------------TELA DE LOGIN-----------------------------------------
 		do{
@@ -21,6 +23,9 @@ namespace VanderluizProjeto3
             var usuarioTentativa = Console.ReadLine();
             Console.Write("Digite a sua senha: ");
             var senhaTentativa = int.Parse(Console.ReadLine());
+            Console.ForegroundColor = ConsoleColor.DarkGreen;     //Muda cor para verde
+            Console.WriteLine("-----------------------");
+            Console.ForegroundColor = ConsoleColor.White;     //Muda cor para branco
             controleSenha = senha == senhaTentativa ? 1 :  0;
             controleLogin = usuario == usuarioTentativa ? 1 :  0; 
             tentativas--;
@@ -40,6 +45,7 @@ namespace VanderluizProjeto3
 		}while(controleSenha < 1 && controleLogin < 1);
 
         //--------------------------MENU CALCULADORA----------------------------------------
+        Console.Clear();
         do
         {        
             Console.WriteLine("-------------------------------------");
@@ -52,21 +58,21 @@ namespace VanderluizProjeto3
             Console.WriteLine("[4] * MULTIPLICACAO");
             Console.WriteLine("[5] * SAIR");
             Console.WriteLine("--------------------------------------");
-            var operacao = int.Parse(Console.ReadLine());
+            operacao = int.Parse(Console.ReadLine());
             //------------------------SUBMENUS CALCULADORA----------------------------------
             switch (operacao)
             {
-                case 1:     // --------------------------- OPERAÇÃO DE + --------------------
+                case 1:     // ------------------------- OPERAÇÃO DE + ------------------
                     do
                     {
                         Console.WriteLine("--------------------------------------");
                         Console.WriteLine($"Usuário: {usuario}");
-                        Console.WriteLine("---------------OPERAÇÃO + -----------------");
+                        Console.WriteLine("------------ OPERAÇÃO + --------------");
                         Console.WriteLine("Escolha alguma das opções abaixo: ");
-                        Console.WriteLine("[1] REFAZER OPERAÇÃO");
+                        Console.WriteLine("[1] FAZER UMA OPERAÇÃO");
                         Console.WriteLine("[2] VOLTAR PARA MENU ANTERIOR");
                         Console.WriteLine("--------------------------------------");
-                        var opcao = int.Parse(Console.ReadLine());
+                        opcao = int.Parse(Console.ReadLine());
                         switch (opcao)
                         {
                             case 1:
@@ -75,15 +81,19 @@ namespace VanderluizProjeto3
                                 Console.Write("Digite o segundo numero: ");
                                 var n2 = Double.Parse(Console.ReadLine());
                                 Console.WriteLine($"{n1} + {n2} = {n1+n2}");
+                                opcao = 0;
                                 break;
                             case 2:
                                 operacao = 0;
                                 break;
                             default:
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("Opção invalida! Selecione uma das 2 opções.");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 break;
                         }
-                    } while (opcao>2 && opcao<1);                  
+                    } while (opcao > 2 || opcao < 1);   
+                    break;               
                 case 2:     // ------------------------------ OPERAÇÃO DE - ---------------------------
                     do
                     {
@@ -94,7 +104,7 @@ namespace VanderluizProjeto3
                         Console.WriteLine("[1] REFAZER OPERAÇÃO");
                         Console.WriteLine("[2] VOLTAR PARA MENU ANTERIOR");
                         Console.WriteLine("--------------------------------------");
-                        var opcao = int.Parse(Console.ReadLine());
+                        opcao = int.Parse(Console.ReadLine());
                         switch (opcao)
                         {
                             case 1:
@@ -103,15 +113,19 @@ namespace VanderluizProjeto3
                                 Console.Write("Digite o segundo numero: ");
                                 var n2 = Double.Parse(Console.ReadLine());
                                 Console.WriteLine($"{n1} - {n2} = {n1-n2}");
+                                opcao = 0;
                                 break;
                             case 2:
                                 operacao = 0;
                                 break;
                             default:
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("Opção invalida! Selecione uma das 2 opções.");
+                                Console.ForegroundColor = ConsoleColor.White;                                
                                 break;
                         }
-                    } while (opcao>2 && opcao<1);                  
+                    } while (opcao>2 || opcao<1);   
+                    break;               
                 case 3:  //----------------- OPERAÇÃO DE / -------------------------------------------
                     do
                     {
@@ -122,7 +136,7 @@ namespace VanderluizProjeto3
                         Console.WriteLine("[1] REFAZER OPERAÇÃO");
                         Console.WriteLine("[2] VOLTAR PARA MENU ANTERIOR");
                         Console.WriteLine("--------------------------------------");
-                        var opcao = int.Parse(Console.ReadLine());
+                        opcao = int.Parse(Console.ReadLine());
                         switch (opcao)
                         {
                             case 1:
@@ -131,15 +145,19 @@ namespace VanderluizProjeto3
                                 Console.Write("Digite o segundo numero: ");
                                 var n2 = Double.Parse(Console.ReadLine());
                                 Console.WriteLine($"{n1} / {n2} = {n1/n2}");
+                                opcao = 0;
                                 break;
                             case 2:
                                 operacao = 0;
                                 break;
                             default:
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("Opção invalida! Selecione uma das 2 opções.");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 break;
                         }
-                    } while (opcao>2 && opcao<1);                  
+                    } while (opcao>2 || opcao<1); 
+                    break;                 
                 case 4:     // ----------------------------- OPERAÇÃO DE * ----------------------------
                     do
                     {
@@ -150,7 +168,7 @@ namespace VanderluizProjeto3
                         Console.WriteLine("[1] REFAZER OPERAÇÃO");
                         Console.WriteLine("[2] VOLTAR PARA MENU ANTERIOR");
                         Console.WriteLine("--------------------------------------");
-                        var opcao = int.Parse(Console.ReadLine());
+                        opcao = int.Parse(Console.ReadLine());
                         switch (opcao)
                         {
                             case 1:
@@ -159,26 +177,31 @@ namespace VanderluizProjeto3
                                 Console.Write("Digite o segundo numero: ");
                                 var n2 = Double.Parse(Console.ReadLine());
                                 Console.WriteLine($"{n1} * {n2} = {n1*n2}");
+                                opcao = 0;
                                 break;
                             case 2:
                                 operacao = 0;
                                 break;
                             default:
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("Opção invalida! Selecione uma das 2 opções.");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 break;
                         }
-                    } while (opcao>2 && opcao<1);
+                    } while (opcao>2 || opcao<1);
+                    break;
                 case 5:     // ----------------------- SAIDA --------------------------------------
 
-                     Environment.Exit(0);            
-
+                    Environment.Exit(0);            
+                    break;
                 default:
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Opção invalida! Selecione uma das 5 opções.");
+                    Console.ForegroundColor = ConsoleColor.White;
                     break;
             }            
             
-        } while (operacao > 4 && operacao < 1);
-
+        } while (operacao > 4 || operacao < 1);
 
         }
     }
