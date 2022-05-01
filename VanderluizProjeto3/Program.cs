@@ -57,6 +57,7 @@ namespace VanderluizProjeto3
             Console.Clear();     
             Console.WriteLine("-------------------------------------");
             Console.WriteLine($"Usuário: {usuario}");
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("----------------MENU-----------------");
             Console.WriteLine("Escolha alguma das opções abaixo: ");
             Console.WriteLine("[1] + SOMA");
@@ -65,6 +66,7 @@ namespace VanderluizProjeto3
             Console.WriteLine("[4] * MULTIPLICACAO");
             Console.WriteLine("[5] X SAIR");
             Console.WriteLine("--------------------------------------");
+            Console.ForegroundColor = ConsoleColor.White;
             operacao = int.Parse(Console.ReadLine());
             //------------------------SUBMENUS CALCULADORA----------------------------------
             switch (operacao)
@@ -75,7 +77,9 @@ namespace VanderluizProjeto3
                         Console.Clear();
                         Console.WriteLine("--------------------------------------");
                         Console.WriteLine($"Usuário: {usuario}");
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
                         Console.WriteLine("------------ OPERAÇÃO + --------------");
+                        Console.ForegroundColor = ConsoleColor.White;
                         Console.WriteLine("Escolha alguma das opções abaixo: ");
                         Console.WriteLine("[1] FAZER UMA OPERAÇÃO");
                         Console.WriteLine("[2] VOLTAR PARA MENU ANTERIOR");
@@ -91,7 +95,9 @@ namespace VanderluizProjeto3
                                 var n2 = Double.Parse(Console.ReadLine());
                                 Console.WriteLine($"{n1} + {n2} = {n1+n2}");
                                 opcao = 0;
-                                Console.WriteLine("Pressione qualquer tecla para continuar.");
+                                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                                Console.WriteLine("\nPressione qualquer tecla para continuar.");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.ReadKey();
                                 break;
                             case 2:
@@ -111,9 +117,11 @@ namespace VanderluizProjeto3
                         Console.Clear();
                         Console.WriteLine("--------------------------------------");
                         Console.WriteLine($"Usuário: {usuario}");
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
                         Console.WriteLine("---------------OPERAÇÃO - ------------");
+                        Console.ForegroundColor = ConsoleColor.White;
                         Console.WriteLine("Escolha alguma das opções abaixo: ");
-                        Console.WriteLine("[1] REFAZER OPERAÇÃO");
+                        Console.WriteLine("[1] FAZER OPERAÇÃO");
                         Console.WriteLine("[2] VOLTAR PARA MENU ANTERIOR");
                         Console.WriteLine("--------------------------------------");
                         opcao = int.Parse(Console.ReadLine());
@@ -127,7 +135,9 @@ namespace VanderluizProjeto3
                                 var n2 = Double.Parse(Console.ReadLine());
                                 Console.WriteLine($"{n1} - {n2} = {n1-n2}");                                
                                 opcao = 0;
-                                Console.WriteLine("Pressione qualquer tecla para continuar.");
+                                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                                Console.WriteLine("\nPressione qualquer tecla para continuar.");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.ReadKey();
                                 break;
                             case 2:
@@ -151,7 +161,7 @@ namespace VanderluizProjeto3
                         Console.WriteLine("---------------OPERAÇÃO / --------------");
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.WriteLine("Escolha alguma das opções abaixo: ");
-                        Console.WriteLine("[1] REFAZER OPERAÇÃO");
+                        Console.WriteLine("[1] FAZER OPERAÇÃO");
                         Console.WriteLine("[2] VOLTAR PARA MENU ANTERIOR");
                         Console.WriteLine("--------------------------------------");
                         opcao = int.Parse(Console.ReadLine());
@@ -165,7 +175,9 @@ namespace VanderluizProjeto3
                                 var n2 = Double.Parse(Console.ReadLine());
                                 Console.WriteLine($"{n1} / {n2} = {n1/n2}");                                
                                 opcao = 0;
-                                Console.WriteLine("Pressione qualquer tecla para continuar.");
+                                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                                Console.WriteLine("\nPressione qualquer tecla para continuar.");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.ReadKey();
                                 break;
                             case 2:
@@ -189,7 +201,7 @@ namespace VanderluizProjeto3
                         Console.WriteLine("---------------OPERAÇÃO * --------------");
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.WriteLine("Escolha alguma das opções abaixo: ");
-                        Console.WriteLine("[1] REFAZER OPERAÇÃO");
+                        Console.WriteLine("[1] FAZER OPERAÇÃO");
                         Console.WriteLine("[2] VOLTAR PARA MENU ANTERIOR");
                         Console.WriteLine("--------------------------------------");
                         opcao = int.Parse(Console.ReadLine());
@@ -203,7 +215,9 @@ namespace VanderluizProjeto3
                                 var n2 = Double.Parse(Console.ReadLine());
                                 Console.WriteLine($"{n1} * {n2} = {n1*n2}");                                
                                 opcao = 0;
-                                Console.WriteLine("Pressione qualquer tecla para continuar.");
+                                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                                Console.WriteLine("\nPressione qualquer tecla para continuar.");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.ReadKey();
                                 break;
                             case 2:
@@ -223,8 +237,9 @@ namespace VanderluizProjeto3
                     break;
                 default:
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Opção invalida! Selecione uma das 5 opções.");
+                    Console.WriteLine("Opção invalida! Pressione qualquer tecla para continuar e selecione uma das 5 opções.");
                     Console.ForegroundColor = ConsoleColor.White;
+                    Console.ReadKey();
                     break;
             }            
             
