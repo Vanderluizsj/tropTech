@@ -1,0 +1,16 @@
+D:\GitHub\aulas\tropTech\AtividadeComplementar\obj\Debug\net5.0\AtividadeComplementar.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\AtividadeComplementar\obj\Debug\net5.0\AtividadeComplementar.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\AtividadeComplementar\obj\Debug\net5.0\AtividadeComplementar.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\AtividadeComplementar\obj\Debug\net5.0\AtividadeComplementar.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\AtividadeComplementar\obj\Debug\net5.0\AtividadeComplementar.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\AtividadeComplementar\bin\Debug\net5.0\AtividadeComplementar.exe
+D:\GitHub\aulas\tropTech\AtividadeComplementar\bin\Debug\net5.0\AtividadeComplementar.deps.json
+D:\GitHub\aulas\tropTech\AtividadeComplementar\bin\Debug\net5.0\AtividadeComplementar.runtimeconfig.json
+D:\GitHub\aulas\tropTech\AtividadeComplementar\bin\Debug\net5.0\AtividadeComplementar.runtimeconfig.dev.json
+D:\GitHub\aulas\tropTech\AtividadeComplementar\bin\Debug\net5.0\AtividadeComplementar.dll
+D:\GitHub\aulas\tropTech\AtividadeComplementar\bin\Debug\net5.0\ref\AtividadeComplementar.dll
+D:\GitHub\aulas\tropTech\AtividadeComplementar\bin\Debug\net5.0\AtividadeComplementar.pdb
+D:\GitHub\aulas\tropTech\AtividadeComplementar\obj\Debug\net5.0\AtividadeComplementar.dll
+D:\GitHub\aulas\tropTech\AtividadeComplementar\obj\Debug\net5.0\ref\AtividadeComplementar.dll
+D:\GitHub\aulas\tropTech\AtividadeComplementar\obj\Debug\net5.0\AtividadeComplementar.pdb
+D:\GitHub\aulas\tropTech\AtividadeComplementar\obj\Debug\net5.0\AtividadeComplementar.genruntimeconfig.cache

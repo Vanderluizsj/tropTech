@@ -1,0 +1,47 @@
+﻿using System;
+
+namespace ex5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            Console.WriteLine("Insira o tamanho do vetor: ");
+            int numeros = int.Parse(Console.ReadLine());
+            int[] vetorNumeros = new int[numeros];
+            int numerosPares = 0;
+            var soma = 0;
+            var media = 0;
+            var quantidadePares = 0;
+            
+
+            for (int i = 0; i < numeros; i++)
+            {
+                Console.Write("Digite o " + (i + 1) + "º numero do vetor: ");
+                vetorNumeros[i] = int.Parse(Console.ReadLine());
+            }
+            
+            Console.WriteLine("Os numeros do vetor são: ");
+            for (int i = 0; i < numeros; i++)
+            {
+                Console.Write("[" + vetorNumeros[i] + "] ");
+            }
+            Console.WriteLine("\nOs numeros pares do vetor são: ");
+            for (int i = 0; i < numeros; i++)
+            {
+                numerosPares = vetorNumeros[i];
+                if (numerosPares % 2 == 0)
+                {
+                    Console.Write(vetorNumeros[i] + " ");
+                    soma += vetorNumeros[i]; 
+                    quantidadePares++;                   
+                }
+            }
+            media=soma/quantidadePares;
+            Console.WriteLine("\nA media dos numeros pares é " + media +".");
+        }
+    }
+}
+
+    

@@ -1,0 +1,16 @@
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\bin\Debug\net5.0\ex2.exe
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\bin\Debug\net5.0\ex2.deps.json
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\bin\Debug\net5.0\ex2.runtimeconfig.json
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\bin\Debug\net5.0\ex2.runtimeconfig.dev.json
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\bin\Debug\net5.0\ex2.dll
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\bin\Debug\net5.0\ref\ex2.dll
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\bin\Debug\net5.0\ex2.pdb
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\obj\Debug\net5.0\ex2.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\obj\Debug\net5.0\ex2.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\obj\Debug\net5.0\ex2.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\obj\Debug\net5.0\ex2.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\obj\Debug\net5.0\ex2.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\obj\Debug\net5.0\ex2.dll
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\obj\Debug\net5.0\ref\ex2.dll
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\obj\Debug\net5.0\ex2.pdb
+D:\GitHub\aulas\tropTech\lista8C#_M1A18\ex2\obj\Debug\net5.0\ex2.genruntimeconfig.cache

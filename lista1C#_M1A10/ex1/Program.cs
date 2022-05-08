@@ -6,7 +6,7 @@ namespace ex1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("      *");      
+            Console.WriteLine("      *");
             Console.WriteLine("     ***");
             Console.WriteLine("    *****");
             Console.WriteLine("   *******");
@@ -14,7 +14,6 @@ namespace ex1
             Console.WriteLine(" ***********");
             Console.WriteLine("*************");
             Console.ReadKey();
-            
         }
     }
 }
