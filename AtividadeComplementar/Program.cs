@@ -7,7 +7,7 @@ namespace AtividadeComplementar
         static void Main(string[] args)
         {
             var operacao = 0;
-            Double saldo = 10000000.00;
+            Double saldo = 10000.00;
             Double saque = 0;
             Double deposito = 0;
             int quantidadeNotas100 = 0;
@@ -18,6 +18,10 @@ namespace AtividadeComplementar
             do
             {
                 Console.Clear();
+                quantidadeNotas100 = 0;
+                quantidadeNotas50 = 0;
+                quantidadeNotas20 = 0;
+                quantidadeNotas10 = 0;
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("----------------MENU-----------------");
                 Console.WriteLine("Escolha alguma das opções abaixo: ");
@@ -35,6 +39,18 @@ namespace AtividadeComplementar
                         Console.Write("Notas disponiveis: R$100, R$50, R$20 e R$10 ");
                         Console.Write("\nDigite o valor do saque: ");
                         saque = Double.Parse(Console.ReadLine());
+                        if (saque>saldo)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Saldo insuficiente!");  
+                            Console.Write($"Saldo atual = R$ {saldo}");  
+                            Console.WriteLine("\nDigite um valor que seja menor que o saldo atual.");
+                            Console.WriteLine("\nPressione qualquer tecla para tentar novamente.");
+                            Console.ForegroundColor = ConsoleColor.White;
+                            operacao = 0;
+                            Console.ReadKey();
+                            break;
+                        }
                         if (saque%10 != 0)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
@@ -73,7 +89,7 @@ namespace AtividadeComplementar
                         Console.WriteLine($"{quantidadeNotas50} nota(s) de R$50");
                         Console.WriteLine($"{quantidadeNotas20} nota(s) de R$20");
                         Console.WriteLine($"{quantidadeNotas10} nota(s) de R$10");
-                        Console.WriteLine($"Saldo atual = {saldo} ");
+                        Console.WriteLine($"Saldo atual = R$ {saldo} ");
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Digite [1] para fazer outra operação. ");  
                         Console.ForegroundColor = ConsoleColor.White;                      
@@ -87,7 +103,7 @@ namespace AtividadeComplementar
                         Console.Write("Digite o valor do depósito: ");
                         deposito = Double.Parse(Console.ReadLine());
                         saldo+=deposito;
-                        Console.WriteLine($"Saldo atual = {saldo} ");
+                        Console.WriteLine($"Saldo atual = R$ {saldo} ");
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Digite [1] para fazer outra operação. ");     
                         Console.ForegroundColor = ConsoleColor.White;                   
@@ -99,7 +115,7 @@ namespace AtividadeComplementar
                         
                         break;
                     case 3:
-                        Console.WriteLine($"Saldo atual = {saldo} ");
+                        Console.WriteLine($"Saldo atual = R$ {saldo} ");
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Digite [1] para fazer outra operação. "); 
                         Console.ForegroundColor = ConsoleColor.White;                       
