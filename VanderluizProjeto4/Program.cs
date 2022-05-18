@@ -7,8 +7,7 @@ namespace VanderluizProjeto4
     {
         static void Main(string[] args)
         {
-            char jogador1;
-            char jogador2;
+            
             bool fimJogo;
             Queue filaJogadas = new Queue();            
             int primeiroJogador;
@@ -16,23 +15,24 @@ namespace VanderluizProjeto4
             fimJogo = false;
             char[,] matriz = new char[3, 3];
             quantidadePreenchida = 0;
+            
+            Vez();
             Iniciar();      
             
             void Iniciar(){
                 while (!fimJogo)
                 {
-                    RenderizarTabela();
-                    Vez();
+                    RenderizarTabela();                    
                     LerEscolha();
                     RenderizarTabela();
-                    //VerificarFim();
+                    VerificarFim();
                 }
             }
 
             void Vez()
             {
                 do
-                 {
+                {
                     Console.WriteLine("Olá jogador1! Escolha com qual dos dois símbolos abaixo você quer começar: ");
                     Console.WriteLine("1 = X ");
                     Console.WriteLine("2 = O ");
@@ -50,8 +50,6 @@ namespace VanderluizProjeto4
                 switch (primeiroJogador)
                 {
                     case 1:
-                        jogador1 = 'X';
-                        jogador2 = 'O';
                         filaJogadas.Enqueue('X');  //1 
                         filaJogadas.Enqueue('O');  //2
                         filaJogadas.Enqueue('X');  //3
@@ -63,8 +61,6 @@ namespace VanderluizProjeto4
                         filaJogadas.Enqueue('X');  //9                 
                         break;
                     case 2:
-                        jogador1 = 'O';
-                        jogador2 = 'X';
                         filaJogadas.Enqueue('O');  //1
                         filaJogadas.Enqueue('X');  //2
                         filaJogadas.Enqueue('O');  //3
@@ -80,34 +76,93 @@ namespace VanderluizProjeto4
                         break;
                 }
             }
-            void LerEscolha(){
-                Console.WriteLine($"Agora é a vez de {filaJogadas.Peek()}, entre uma posição de 0,0 a 2,2 que esteja disponível na tabela");
+            void VerficarFim()
+            {
+                if (quantidadePreenchida < 5)
+                    return;
 
-                bool verifica = int.TryParse(Console.ReadLine(), out int posicaoEscolhida);
-                while (!verifica || !ValidarEscolha(posicaoEscolhida))
+                if (ExisteVitoriaHorizontal() || ExisteVitoriaVertical() || ExisteVitoriaDiagonal())
                 {
-                    Console.WriteLine("O campo escolhido é inválido, por favor digite uma posição que esteja disponível na tabela.");
-                    verifica = int.TryParse(Console.ReadLine(), out posicaoEscolhida);
-                    //problema ao validar escolha do usuario, não reconhece a entrada
+                    fimJogo = true;
+                    Console.WriteLine($"Fim de jogo!!! Vitória de {filaJogadas.Peek()}");
+                    return;
                 }
-                PreencherEscolha(posicaoEscolhida);
+
+                if (quantidadePreenchida is 9)
+                {
+                    fimJogo = true;
+                    Console.WriteLine("Fim de jogo!!! EMPATE");
+                }
             }
 
-            void PreencherEscolha(int posicaoEscolhida)
+            bool ExisteVitoriaHorizontal()
             {
-                int linha = posicaoEscolhida - 1;
-                int coluna = posicaoEscolhida - 1;
+                bool vitoriaLinha1 = matriz[0,0] == matriz[0,1] && matriz[0,1] == matriz[0,2];
+                bool vitoriaLinha2 = matriz[1,0] == matriz[1,1] && matriz[1,1] == matriz[1,2];
+                bool vitoriaLinha3 = matriz[2,0] == matriz[2,1] && matriz[2,1] == matriz[2,2];
+
+                return vitoriaLinha1 || vitoriaLinha2 || vitoriaLinha3;
+            }
+
+            bool ExisteVitoriaVertical()
+            {
+                bool vitoriaLinha1 = matriz[0,0] == matriz[1,0] && matriz[1,0] == matriz[2,0];
+                bool vitoriaLinha2 = matriz[0,1] == matriz[1,1] && matriz[1,1] == matriz[2,1];
+                bool vitoriaLinha3 = matriz[0,2] == matriz[1,2] && matriz[1,2] == matriz[2,2];
+
+                return vitoriaLinha1 || vitoriaLinha2 || vitoriaLinha3;
+            }
+
+            bool ExisteVitoriaDiagonal()
+            {
+                bool vitoriaLinha1 = matriz[0,0] == matriz[1,1] && matriz[1,1] == matriz[2,2];
+                bool vitoriaLinha2 = matriz[0,2] == matriz[1,1] && matriz[1,1] == matriz[2,0];
+
+                return vitoriaLinha1 || vitoriaLinha2;
+            }
+            void LerEscolha(){
+                Console.WriteLine($"Agora é a vez de {filaJogadas.Peek()}, entre uma posição de 0,0 a 2,2 que esteja disponível na tabela");
+                int controleLocal;
+                int linhaEscolhida, colunaEscolhida;
+                do
+                {
+                    controleLocal = 1;
+                    Console.Write("Digite a linha:");
+                    string linha = Console.ReadLine();
+                    Console.Write("\nDigite a coluna:");
+                    string coluna = Console.ReadLine();
+                    if (String.IsNullOrEmpty(linha))
+                    {
+                        controleLocal = 0;
+                        Console.WriteLine("O campo escolhido é inválido, por favor digite uma posição que esteja disponível na tabela.");   
+                    }
+                    if (String.IsNullOrEmpty(coluna))
+                    {
+                        controleLocal = 0;
+                        Console.WriteLine("O campo escolhido é inválido, por favor digite uma posição que esteja disponível na tabela.");   
+                    }
+                
+                linhaEscolhida = int.Parse(linha);
+                colunaEscolhida = int.Parse(coluna);
+                    
+                } while (controleLocal < 1 || !ValidarEscolha(linhaEscolhida, colunaEscolhida));
+                
+
+                PreencherEscolha(linhaEscolhida, colunaEscolhida);
+            }
+
+            void PreencherEscolha(int linha, int coluna)
+            {
+                
                 var temp = (char)filaJogadas.Dequeue();
                 matriz[linha, coluna] = temp;
                 
                 quantidadePreenchida++;
             }
 
-            bool ValidarEscolha(int posicaoEscolhida)
+            bool ValidarEscolha(int linha, int coluna)
             {
-                int linha = posicaoEscolhida - 1;
-                int coluna = posicaoEscolhida - 1;
-
+                
                 return matriz[linha, coluna] != 'O' && matriz[linha, coluna] != 'X';
             }
 
@@ -120,8 +175,8 @@ namespace VanderluizProjeto4
             string ObterTabela()
             {
                 return $"__{matriz[0, 0]}__|__{matriz[0, 1]}__|__{matriz[0, 2]}__\n" +
-                        $"__{matriz[0, 0]}__|__{matriz[0, 1]}__|__{matriz[0, 2]}__\n" +
-                        $"  {matriz[0, 0]}  |  {matriz[0, 1]}  |  {matriz[0, 2]}\n\n";
+                        $"__{matriz[1, 0]}__|__{matriz[1, 1]}__|__{matriz[1, 2]}__\n" +
+                        $"  {matriz[2, 0]}  |  {matriz[2, 1]}  |  {matriz[2, 2]}\n\n";
             }
         }
     }
