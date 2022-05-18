@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections;
+using System.Globalization;
+using System.Threading;
 
 namespace VanderluizProjeto4
 {
@@ -15,9 +17,10 @@ namespace VanderluizProjeto4
             fimJogo = false;
             char[,] matriz = new char[3, 3];
             quantidadePreenchida = 0;
+            DateTime data;
             
             Vez();
-            Iniciar();      
+            Iniciar();     
             
             void Iniciar(){
                 while (!fimJogo)
@@ -25,7 +28,7 @@ namespace VanderluizProjeto4
                     RenderizarTabela();                    
                     LerEscolha();
                     RenderizarTabela();
-                    VerificarFim();
+                    Fim();
                 }
             }
 
@@ -76,50 +79,7 @@ namespace VanderluizProjeto4
                         break;
                 }
             }
-            void VerficarFim()
-            {
-                if (quantidadePreenchida < 5)
-                    return;
-
-                if (ExisteVitoriaHorizontal() || ExisteVitoriaVertical() || ExisteVitoriaDiagonal())
-                {
-                    fimJogo = true;
-                    Console.WriteLine($"Fim de jogo!!! Vitória de {filaJogadas.Peek()}");
-                    return;
-                }
-
-                if (quantidadePreenchida is 9)
-                {
-                    fimJogo = true;
-                    Console.WriteLine("Fim de jogo!!! EMPATE");
-                }
-            }
-
-            bool ExisteVitoriaHorizontal()
-            {
-                bool vitoriaLinha1 = matriz[0,0] == matriz[0,1] && matriz[0,1] == matriz[0,2];
-                bool vitoriaLinha2 = matriz[1,0] == matriz[1,1] && matriz[1,1] == matriz[1,2];
-                bool vitoriaLinha3 = matriz[2,0] == matriz[2,1] && matriz[2,1] == matriz[2,2];
-
-                return vitoriaLinha1 || vitoriaLinha2 || vitoriaLinha3;
-            }
-
-            bool ExisteVitoriaVertical()
-            {
-                bool vitoriaLinha1 = matriz[0,0] == matriz[1,0] && matriz[1,0] == matriz[2,0];
-                bool vitoriaLinha2 = matriz[0,1] == matriz[1,1] && matriz[1,1] == matriz[2,1];
-                bool vitoriaLinha3 = matriz[0,2] == matriz[1,2] && matriz[1,2] == matriz[2,2];
-
-                return vitoriaLinha1 || vitoriaLinha2 || vitoriaLinha3;
-            }
-
-            bool ExisteVitoriaDiagonal()
-            {
-                bool vitoriaLinha1 = matriz[0,0] == matriz[1,1] && matriz[1,1] == matriz[2,2];
-                bool vitoriaLinha2 = matriz[0,2] == matriz[1,1] && matriz[1,1] == matriz[2,0];
-
-                return vitoriaLinha1 || vitoriaLinha2;
-            }
+            
             void LerEscolha(){
                 Console.WriteLine($"Agora é a vez de {filaJogadas.Peek()}, entre uma posição de 0,0 a 2,2 que esteja disponível na tabela");
                 int controleLocal;
@@ -127,9 +87,9 @@ namespace VanderluizProjeto4
                 do
                 {
                     controleLocal = 1;
-                    Console.Write("Digite a linha:");
+                    Console.Write("Digite a linha: ");
                     string linha = Console.ReadLine();
-                    Console.Write("\nDigite a coluna:");
+                    Console.Write("Digite a coluna: ");
                     string coluna = Console.ReadLine();
                     if (String.IsNullOrEmpty(linha))
                     {
@@ -162,8 +122,12 @@ namespace VanderluizProjeto4
 
             bool ValidarEscolha(int linha, int coluna)
             {
-                
+                //if (matriz[linha, coluna] == 'O' && matriz[linha, coluna] == 'X')
+                //{
+                //    Console.WriteLine("O campo escolhido é inválido, por favor digite uma posição que esteja disponível na tabela.");
+                //}
                 return matriz[linha, coluna] != 'O' && matriz[linha, coluna] != 'X';
+                
             }
 
            
@@ -171,12 +135,58 @@ namespace VanderluizProjeto4
             {
                 Console.Clear();
                 Console.WriteLine(ObterTabela());
+                data = DateTime.Now;
+                Console.WriteLine("Horário da jogada: " + data.ToString("HH:mm:ss"));
             }              
             string ObterTabela()
             {
                 return $"__{matriz[0, 0]}__|__{matriz[0, 1]}__|__{matriz[0, 2]}__\n" +
                         $"__{matriz[1, 0]}__|__{matriz[1, 1]}__|__{matriz[1, 2]}__\n" +
                         $"  {matriz[2, 0]}  |  {matriz[2, 1]}  |  {matriz[2, 2]}\n\n";
+            }
+            void Fim()
+            {
+                if (quantidadePreenchida < 5)
+                    return;
+
+                if (ExisteVitoriaHorizontal() || ExisteVitoriaVertical() || ExisteVitoriaDiagonal())
+                {
+                    fimJogo = true;
+                    Console.WriteLine($"Fim de jogo!!! Parabens pela vitória!");
+                    return;
+                }
+
+                if (quantidadePreenchida is 9)
+                {
+                    fimJogo = true;
+                    Console.WriteLine("Fim de jogo!!! EMPATE");
+                }
+            }
+
+            bool ExisteVitoriaHorizontal()
+            {
+                bool vitoriaLinha1 = matriz[0, 0] == matriz[0, 1] && matriz[0, 1] == matriz[0, 2];
+                bool vitoriaLinha2 = matriz[1, 0] == matriz[1, 1] && matriz[1, 1] == matriz[1, 2];
+                bool vitoriaLinha3 = matriz[2, 0] == matriz[2, 1] && matriz[2, 1] == matriz[2, 2];
+
+                return vitoriaLinha1 || vitoriaLinha2 || vitoriaLinha3;
+            }
+
+            bool ExisteVitoriaVertical()
+            {
+                bool vitoriaLinha1 = matriz[0, 0] == matriz[1, 0] && matriz[1, 0] == matriz[2, 0];
+                bool vitoriaLinha2 = matriz[0, 1] == matriz[1, 1] && matriz[1, 1] == matriz[2, 1];
+                bool vitoriaLinha3 = matriz[0, 2] == matriz[1, 2] && matriz[1, 2] == matriz[2, 2];
+
+                return vitoriaLinha1 || vitoriaLinha2 || vitoriaLinha3;
+            }
+
+            bool ExisteVitoriaDiagonal()
+            {
+                bool vitoriaLinha1 = matriz[0, 0] == matriz[1, 1] && matriz[1, 1] == matriz[2, 2];
+                bool vitoriaLinha2 = matriz[0, 2] == matriz[1, 1] && matriz[1, 1] == matriz[2, 0];
+
+                return vitoriaLinha1 || vitoriaLinha2;
             }
         }
     }
