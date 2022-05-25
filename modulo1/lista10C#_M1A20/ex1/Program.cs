@@ -21,7 +21,7 @@ namespace ex1
                 Console.Write("Digite o nome do trabalhadore a ser avaliado: ");
                 nome[i] = Console.ReadLine();
             
-                Console.Write("\nDigite o idade dos trabalhador a ser avaliado: ");
+                Console.Write("\nDigite o idade do trabalhador a ser avaliado: ");
                 idade[i] = int.Parse(Console.ReadLine());
             
                 Console.Write("\nDigite o tempo de trabalho do trabalhador a ser avaliado: ");
