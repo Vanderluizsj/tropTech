@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista1C#_M2A1\\ex1\\Agenda.csproj",
-      "projectName": "Agenda",
-      "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista1C#_M2A1\\ex1\\Agenda.csproj",
+      "projectUniqueName": "D:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj",
+      "projectName": "Revisao",
+      "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj",
       "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
-      "outputPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista1C#_M2A1\\ex1\\obj\\",
+      "outputPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config",
