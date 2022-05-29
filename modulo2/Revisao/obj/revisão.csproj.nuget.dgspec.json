@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj": {}
+    "C:\\Users\\T-Gamer\\Desktop\\trop tec\\modulo 2\\2,4 revisão\\revisão\\revisão.csproj": {}
   },
   "projects": {
-    "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj": {
+    "C:\\Users\\T-Gamer\\Desktop\\trop tec\\modulo 2\\2,4 revisão\\revisão\\revisão.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj",
-        "projectName": "Revisao",
-        "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj",
-        "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
-        "outputPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\obj\\",
+        "projectUniqueName": "C:\\Users\\T-Gamer\\Desktop\\trop tec\\modulo 2\\2,4 revisão\\revisão\\revisão.csproj",
+        "projectName": "revisão",
+        "projectPath": "C:\\Users\\T-Gamer\\Desktop\\trop tec\\modulo 2\\2,4 revisão\\revisão\\revisão.csproj",
+        "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\T-Gamer\\Desktop\\trop tec\\modulo 2\\2,4 revisão\\revisão\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,12 +47,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

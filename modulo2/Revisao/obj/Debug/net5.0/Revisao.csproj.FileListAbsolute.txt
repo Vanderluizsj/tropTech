@@ -1,0 +1,16 @@
+d:\GitHub\aulas\tropTech\modulo2\Revisao\obj\Debug\net5.0\Revisao.csproj.AssemblyReference.cache
+d:\GitHub\aulas\tropTech\modulo2\Revisao\obj\Debug\net5.0\Revisao.GeneratedMSBuildEditorConfig.editorconfig
+d:\GitHub\aulas\tropTech\modulo2\Revisao\obj\Debug\net5.0\Revisao.AssemblyInfoInputs.cache
+d:\GitHub\aulas\tropTech\modulo2\Revisao\obj\Debug\net5.0\Revisao.AssemblyInfo.cs
+d:\GitHub\aulas\tropTech\modulo2\Revisao\obj\Debug\net5.0\Revisao.csproj.CoreCompileInputs.cache
+d:\GitHub\aulas\tropTech\modulo2\Revisao\bin\Debug\net5.0\Revisao.exe
+d:\GitHub\aulas\tropTech\modulo2\Revisao\bin\Debug\net5.0\Revisao.deps.json
+d:\GitHub\aulas\tropTech\modulo2\Revisao\bin\Debug\net5.0\Revisao.runtimeconfig.json
+d:\GitHub\aulas\tropTech\modulo2\Revisao\bin\Debug\net5.0\Revisao.runtimeconfig.dev.json
+d:\GitHub\aulas\tropTech\modulo2\Revisao\bin\Debug\net5.0\Revisao.dll
+d:\GitHub\aulas\tropTech\modulo2\Revisao\bin\Debug\net5.0\ref\Revisao.dll
+d:\GitHub\aulas\tropTech\modulo2\Revisao\bin\Debug\net5.0\Revisao.pdb
+d:\GitHub\aulas\tropTech\modulo2\Revisao\obj\Debug\net5.0\Revisao.dll
+d:\GitHub\aulas\tropTech\modulo2\Revisao\obj\Debug\net5.0\ref\Revisao.dll
+d:\GitHub\aulas\tropTech\modulo2\Revisao\obj\Debug\net5.0\Revisao.pdb
+d:\GitHub\aulas\tropTech\modulo2\Revisao\obj\Debug\net5.0\Revisao.genruntimeconfig.cache

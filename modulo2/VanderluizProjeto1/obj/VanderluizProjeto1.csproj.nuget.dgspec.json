@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj": {}
+    "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto1\\VanderluizProjeto1.csproj": {}
   },
   "projects": {
-    "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj": {
+    "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto1\\VanderluizProjeto1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj",
-        "projectName": "Revisao",
-        "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\Revisao.csproj",
+        "projectUniqueName": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto1\\VanderluizProjeto1.csproj",
+        "projectName": "VanderluizProjeto1",
+        "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto1\\VanderluizProjeto1.csproj",
         "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
-        "outputPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\Revisao\\obj\\",
+        "outputPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config",

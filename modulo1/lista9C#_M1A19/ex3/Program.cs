@@ -9,7 +9,7 @@ namespace ex3
             Console.WriteLine("Digite uma frase e veja quantas palavras ela tem: ");
             var qtdPalavras = 0;
             string frase = Console.ReadLine();
-           // int teste = frase.lenght;
+           // int teste = frase.Length;
 
             Console.WriteLine(frase);
             foreach (var caracter in frase)
