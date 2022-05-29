@@ -13,8 +13,6 @@ namespace VanderluizProjeto1
         }
         public void Enfileirar(string novoItem)
         {
-           // if (_fila.Length>0)
-            //{
                 var filaAtual = _fila;
                 _fila = new string[_fila.Length +1];//quando add o novo item, vai aumentar 1 item na fila
                 //_fila nome, new string dizendo que é um array, [_fila.length+1] que a fila é 0 +1. 
@@ -23,15 +21,8 @@ namespace VanderluizProjeto1
                     _fila [i] = filaAtual [i];
                 }       
                 _fila[_fila.Length-1] = novoItem; //add novo item  
-                quantidade++;
-                 
-           // } else
-           // {
-            //    _fila[0] = novoItem;
-            //    quantidade++;
-            //    System.Console.WriteLine(
-            //        $"{novoItem} foi adicionado a fila e agora temos {quantidade} pessoas na fila.");
-           // }
+                quantidade++;                 
+           
         }
         public int Quantidade
         {
@@ -62,7 +53,7 @@ namespace VanderluizProjeto1
         public void Primeiro(){
             if (_fila.Length>0)
             {
-                Console.WriteLine(_fila[0]);
+                Console.WriteLine($"O primeiro nome na fila é: {_fila[0]}");
             } else
             {
                 Console.WriteLine("Fila vazia!");
@@ -76,17 +67,19 @@ namespace VanderluizProjeto1
 
         public void BuscaIguais(string consultaPessoa){
 
+            var verificacao = 0;
             foreach (var pessoa in _fila)
-            {
-                if (pessoa == consultaPessoa)
-                {
-                    Console.WriteLine("Esse nome já foi cadastrado.");
-                } else
-                {
-                    Console.WriteLine("Esse nome não esta na fila.");
-                }
+            {                               
+                verificacao = pessoa == consultaPessoa? 1 : 0;
+                
             }
-
+            if(verificacao>0)
+            {
+                Console.WriteLine($"Esse nome já foi cadastrado na fila.");
+            } else
+            {
+                Console.WriteLine($"Esse nome não foi cadastrado na fila.");
+            }
         }
 
     }
