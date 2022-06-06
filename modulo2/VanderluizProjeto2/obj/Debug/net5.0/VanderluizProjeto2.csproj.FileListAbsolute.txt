@@ -1,0 +1,5 @@
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto2\obj\Debug\net5.0\VanderluizProjeto2.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto2\obj\Debug\net5.0\VanderluizProjeto2.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto2\obj\Debug\net5.0\VanderluizProjeto2.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto2\obj\Debug\net5.0\VanderluizProjeto2.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto2\obj\Debug\net5.0\VanderluizProjeto2.csproj.CoreCompileInputs.cache

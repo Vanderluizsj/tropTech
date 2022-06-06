@@ -1,0 +1,16 @@
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\obj\Debug\net5.0\salaDeAula.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\obj\Debug\net5.0\salaDeAula.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\obj\Debug\net5.0\salaDeAula.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\obj\Debug\net5.0\salaDeAula.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\obj\Debug\net5.0\salaDeAula.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\bin\Debug\net5.0\salaDeAula.exe
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\bin\Debug\net5.0\salaDeAula.deps.json
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\bin\Debug\net5.0\salaDeAula.runtimeconfig.json
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\bin\Debug\net5.0\salaDeAula.runtimeconfig.dev.json
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\bin\Debug\net5.0\salaDeAula.dll
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\bin\Debug\net5.0\ref\salaDeAula.dll
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\bin\Debug\net5.0\salaDeAula.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\obj\Debug\net5.0\salaDeAula.dll
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\obj\Debug\net5.0\ref\salaDeAula.dll
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\obj\Debug\net5.0\salaDeAula.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista6C#_M2A6\salaDeAula\obj\Debug\net5.0\salaDeAula.genruntimeconfig.cache

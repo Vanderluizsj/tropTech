@@ -1,0 +1,5 @@
+d:\GitHub\aulas\tropTech\modulo2\lista5C#_M2A5\ex1\obj\Debug\net5.0\ex1.csproj.AssemblyReference.cache
+d:\GitHub\aulas\tropTech\modulo2\lista5C#_M2A5\ex1\obj\Debug\net5.0\ex1.GeneratedMSBuildEditorConfig.editorconfig
+d:\GitHub\aulas\tropTech\modulo2\lista5C#_M2A5\ex1\obj\Debug\net5.0\ex1.AssemblyInfoInputs.cache
+d:\GitHub\aulas\tropTech\modulo2\lista5C#_M2A5\ex1\obj\Debug\net5.0\ex1.AssemblyInfo.cs
+d:\GitHub\aulas\tropTech\modulo2\lista5C#_M2A5\ex1\obj\Debug\net5.0\ex1.csproj.CoreCompileInputs.cache
