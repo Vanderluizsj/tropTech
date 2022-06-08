@@ -2,11 +2,19 @@ namespace VanderluizProjeto2
 {
     public class PessoaJuridica:Cliente
     {
-        private int CNPJ { get; set; }
+        private int cnpj;
 
-        public PessoaJuridica(int cnpj) 
-        {
-            this.CNPJ = cnpj;               
+        public int Cnpj 
+        { 
+            get
+            {
+                return this.cnpj;
+            }
+            set
+            {
+                this.cnpj = value;
+            }
         }
+
     }
 }

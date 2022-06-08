@@ -7,13 +7,15 @@ namespace VanderluizProjeto2
         static void Main(string[] args)
         {
             var opcaoStr = string.Empty;
-            int opcaoPrincipal = 0;
-            //LinkedList<Cliente> listaClientes = new LinkedList<Cliente>();
+            int opcaoPrincipal = 0;            
             var cliente = new Cliente();
+            var venda = new Venda();
             while (opcaoStr != "7") //Repete até que  opção sair seja escolhida
             {
                 do // repete se o campo opcaoStr for deixado em branco ou se a opção voltar for escolhida em um submenu
                 {
+                    Console.Clear(); 
+                    Console.ForegroundColor = ConsoleColor.DarkBlue; 
                     Console.WriteLine("--------------------------------------------------");
                     Console.WriteLine("        Bem vindo ao cadastro de Clientes!        ");
                     Console.WriteLine("--------------------------------------------------");
@@ -26,6 +28,7 @@ namespace VanderluizProjeto2
                     Console.WriteLine("[6] Exibir todas as vendas.");
                     Console.WriteLine("[7] Sair.");
                     Console.WriteLine("--------------------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.White;
                     opcaoStr = Console.ReadLine();
                     if (String.IsNullOrEmpty(opcaoStr))
                     {
@@ -33,75 +36,70 @@ namespace VanderluizProjeto2
                     }  else
                     {
                         opcaoPrincipal = 1;
-                    }              
-
-                    Console.Clear();               
-
+                    }           
+                               
                     switch (opcaoStr)
                     {
                         case "1":
                             //Menu de cadastro de clientes
-                            Gerenciador.Cadastrar(cliente);
-                            
+                            Console.Clear();
+                            Gerenciador.Cadastrar();                            
                             Console.ForegroundColor = ConsoleColor.Blue;
-                            Console.WriteLine("Cliente cadastrado com sucesso.");
-                            
+                            Console.WriteLine("Cliente cadastrado com sucesso.");                            
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
-
                             Console.ReadKey();                     
                             break;
                         case "2":
-                            Gerenciador.ExibirLista(cliente);
-
+                            Console.Clear();
+                            Gerenciador.ExibirLista(cliente);                            
                             Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();
                             break;
                         case "3":
+                            Console.Clear();
                             Gerenciador.ConsultarCliente(cliente);
-
                             Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();
                             break;
                         case "4":
-                             Gerenciador.RemoverCliente(cliente);
-                             
+                            Console.Clear();
+                             Gerenciador.RemoverCliente(cliente);                             
                             Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();                       
                             break;
                         case "5":
-                             Gerenciador.CadastrarVenda(cliente);
-                             
+                            Console.Clear();
+                            Gerenciador.CadastrarVenda();                             
                             Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();                       
                             break;
                         case "6":
-                             Gerenciador.ExibirVendas(cliente);
-                             
+                            Gerenciador.ExibirVendas(venda);                             
                             Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();                       
                             break;
                         case "7":
-                            //Environment.Exit(0);
+                            Console.Clear();
                             Console.WriteLine("Obrigado por usar nosso sistema e apoir nosso trabalho!");
                             Console.WriteLine("Até a proxima!");
-
                             Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();
                             break;
                         default:
+                            Console.Clear();
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("Valor Invalido! Pressione qualquer tecla e tente novmente.");                             
                             Console.ForegroundColor = ConsoleColor.White;

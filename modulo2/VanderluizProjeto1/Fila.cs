@@ -65,13 +65,13 @@ namespace VanderluizProjeto1
             _fila = new string[0];
         }
 
-        public void BuscaIguais(string consultaPessoa){
+        public void BuscaIguais(string consultaPessoa)
+        {
 
             var verificacao = 0;
             foreach (var pessoa in _fila)
             {                               
-                verificacao = pessoa == consultaPessoa? 1 : 0;
-                
+                verificacao = pessoa == consultaPessoa? 1 : 0;                
             }
             if(verificacao>0)
             {
