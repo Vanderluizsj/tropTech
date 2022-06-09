@@ -67,7 +67,7 @@ namespace VanderluizProjeto2
         
         public override  string ToString()
         {
-            return "Cliente{" + "nome=" + nome + ", telefone=" + telefone + ", endereço=" + endereco + '}';
+            return "Cliente {" + "nome= " + nome + ", telefone= " + telefone + ", endereço= " + endereco.Completo + '}';
         }
 
         public void ConsultarClientes()
@@ -90,7 +90,9 @@ namespace VanderluizProjeto2
             }
             if(!verificacao)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Esse nome não esta cadastrado na lista.");
+                Console.ForegroundColor = ConsoleColor.White;
             }
         }         
         public void RemoverCliente(string consultaPessoa)
@@ -100,7 +102,9 @@ namespace VanderluizProjeto2
             {                               
                 if(pessoa.Nome == consultaPessoa)
                 {
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine($"{consultaPessoa} estava cadastrado na lista e foi removido.");
+                    Console.ForegroundColor = ConsoleColor.White;
                     listaClientes.Remove(pessoa);
                     verificacao = true;
                     break;
@@ -108,25 +112,31 @@ namespace VanderluizProjeto2
             
                 if(!verificacao)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"Esse nome não esta cadastrado na lista.");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
             }
         }
-        public static bool ConsultarClienteVenda(string consultaPessoa)
+        public static string ConsultarClienteVenda(string consultaPessoa)
         {
-            bool verificacao = false;
+            int verificacao = 0;
+            string telefoneVenda= "0";
             foreach (var pessoa in listaClientes)
             {                               
                 if(pessoa.Nome == consultaPessoa)
                 {
-                    verificacao = true;
+                    verificacao = 1;
+                    telefoneVenda = pessoa.Telefone;
                 }                
             }
-            if(!verificacao)
+            if(verificacao == 0)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Esse nome não esta cadastrado na lista.");
+                Console.ForegroundColor = ConsoleColor.White;
             }
-            return verificacao;
+            return telefoneVenda;
         }         
         
     }

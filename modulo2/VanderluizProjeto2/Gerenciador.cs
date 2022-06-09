@@ -7,11 +7,14 @@ namespace VanderluizProjeto2
         public static void Cadastrar()
         {
             string opcaoStr = string.Empty;
-            
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Digite uma das opções abaixo: ");
             Console.WriteLine("[1] Cadastrar cliente Pessoa Física.");
             Console.WriteLine("[2] Consultar Cliente Pessoa Jurídica.");
             Console.WriteLine("[3] Voltar ao menu anterior."); 
+            Console.ForegroundColor = ConsoleColor.White;
+            
+
             opcaoStr = Console.ReadLine();
 
             if (String.IsNullOrEmpty(opcaoStr))
@@ -48,11 +51,11 @@ namespace VanderluizProjeto2
                     Console.Write("Informe o País: ");
                     string pais = Console.ReadLine();
                     Console.Write("Informe a CPF: "); 
-                    clientePf.Cpf = Convert.ToInt32(Console.ReadLine());
+                    clientePf.Cpf = Console.ReadLine();
 
                     Endereco endereco = new Endereco(rua, numero, bairro, cidade, estado, pais);
                     clientePf.Endereco = endereco;
-                    //Cliente cliente = new PessoaFisica();
+                    
                     clientePf.CadastrarCliente(clientePf);
                 } else if (opcaoStr == "2")
                 {
@@ -75,7 +78,7 @@ namespace VanderluizProjeto2
                     Console.Write("Informe o País: ");
                     string pais = Console.ReadLine();
                     Console.Write("Informe a CNPJ: ");
-                    clientePj.Cnpj = Convert.ToInt32(Console.ReadLine());
+                    clientePj.Cnpj = Console.ReadLine();
                     Endereco endereco = new Endereco(rua, numero, bairro, cidade, estado, pais);
                     clientePj.Endereco = endereco;                      
                     
@@ -88,7 +91,9 @@ namespace VanderluizProjeto2
         {
             if(cliente.Quantidade == 0)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("A lista está vazia! Ainda não tem clietes cadastrados.");
+                Console.ForegroundColor = ConsoleColor.White;
                 return;
             }
             else
@@ -100,7 +105,9 @@ namespace VanderluizProjeto2
         {
             if(cliente.Quantidade == 0)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("A lista está vazia! Ainda não tem clietes cadastrados.");
+                Console.ForegroundColor = ConsoleColor.White;
                 return;
             }
             else
@@ -108,12 +115,15 @@ namespace VanderluizProjeto2
                 int opcao = 0;
                 do
                 {
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine("Informe o Nome que deseja consultar na lista");
                     string nomeConsulta = Console.ReadLine();
-
+                    Console.ForegroundColor = ConsoleColor.White;
                     if (nomeConsulta == string.Empty)
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Valor Invalido, tente denovo");
+                        Console.ForegroundColor = ConsoleColor.White;
                         opcao = 0;
                     }else
                     {
@@ -128,7 +138,9 @@ namespace VanderluizProjeto2
         {
             if(cliente.Quantidade == 0)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("A lista está vazia! Ainda não tem clietes cadastrados.");
+                Console.ForegroundColor = ConsoleColor.White;
                 return;
             }
             else
@@ -136,12 +148,16 @@ namespace VanderluizProjeto2
                 int opcao = 0;
                 do
                 {
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.WriteLine("Informe o Nome que deseja remover da lista");
+                    Console.ForegroundColor = ConsoleColor.White;
                     string nomeConsulta = Console.ReadLine();
 
                     if (nomeConsulta == string.Empty)
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Valor Invalido, tente denovo");
+                        Console.ForegroundColor = ConsoleColor.White;
                         opcao = 0;
                     }else
                     {
@@ -154,10 +170,12 @@ namespace VanderluizProjeto2
         }
         public static void CadastrarVenda()
         {
-            string opcaoStr = string.Empty;             
+            string opcaoStr = string.Empty; 
+            Console.ForegroundColor = ConsoleColor.Green;            
             Console.WriteLine("Digite uma das opções abaixo: ");
             Console.WriteLine("[1] Cadastrar venda.");            
             Console.WriteLine("[2] Voltar ao menu anterior."); 
+            Console.ForegroundColor = ConsoleColor.White;
             opcaoStr = Console.ReadLine();
 
             if (String.IsNullOrEmpty(opcaoStr))
@@ -173,8 +191,9 @@ namespace VanderluizProjeto2
             }
             else if(opcaoStr == "1")
             {
-                
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("Pessoa física ou jurídica?");
+                Console.ForegroundColor = ConsoleColor.White;
                 var tipoCliente = Console.ReadLine();
                 if (tipoCliente == "física" || tipoCliente == "fisica")
                 {
@@ -182,11 +201,13 @@ namespace VanderluizProjeto2
 
                     Console.Write("Informe o Nome do cliente: ");
                     string nome = Console.ReadLine();
-                    bool clienteExiste = Cliente.ConsultarClienteVenda(nome);
-                    if (clienteExiste)
+                    string telefoneVenda = "0";
+                    telefoneVenda = Cliente.ConsultarClienteVenda(nome);
+                    if (telefoneVenda != "0")
                     {
                         Venda venda = new Venda();
-                        clientePf.Nome = nome;
+                        venda.Nome = nome;
+                        venda.Telefone = telefoneVenda;
                         Console.Write("Informe a descrição do produto: ");
                         venda.Descricao = Console.ReadLine();
                         Console.Write("Informe o valor do produto: ");
@@ -202,11 +223,13 @@ namespace VanderluizProjeto2
 
                         Console.Write("Informe o Nome do cliente: ");
                         string nome = Console.ReadLine();
-
-                        bool clienteExiste = Cliente.ConsultarClienteVenda(nome);
-                        if (clienteExiste)
+                        string telefoneVenda = "0";
+                        telefoneVenda = Cliente.ConsultarClienteVenda(nome);
+                        if (telefoneVenda != "0")
                         {
                             Venda venda = new Venda();
+                            venda.Nome = nome;
+                            venda.Telefone = telefoneVenda;
                             Console.Write("Informe a descrição do produto: ");
                             venda.Descricao = Console.ReadLine();
                             venda.ValorTotal = double.Parse(Console.ReadLine());
@@ -223,11 +246,13 @@ namespace VanderluizProjeto2
                                                        
             
         }
-        public static void ExibirVendas(Venda venda)
+        public static void ExibirVendas()
         {
-            if(venda.Quantidade == 0)
+            if(Venda.Quantidade == 0)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("A lista está vazia! Ainda não tem vendas cadastradas.");
+                Console.ForegroundColor = ConsoleColor.White;
                 return;
             }
             else

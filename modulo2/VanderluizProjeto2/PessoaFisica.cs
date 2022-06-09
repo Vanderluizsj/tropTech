@@ -2,9 +2,9 @@ namespace VanderluizProjeto2
 {
     public class PessoaFisica:Cliente
     {
-        private int cpf;
+        private string cpf;
 
-        public int Cpf 
+        public string Cpf 
         { 
             get
             {

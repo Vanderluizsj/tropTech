@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\VanderluizProjeto2.csproj": {}
+    "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\VanderluizProjeto2.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\VanderluizProjeto2.csproj": {
+    "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\VanderluizProjeto2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\VanderluizProjeto2.csproj",
+        "projectUniqueName": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\VanderluizProjeto2.csproj",
         "projectName": "VanderluizProjeto2",
-        "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\VanderluizProjeto2.csproj",
+        "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\VanderluizProjeto2.csproj",
         "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\obj\\",
+        "outputPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config",

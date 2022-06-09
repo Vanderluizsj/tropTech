@@ -5,12 +5,35 @@ namespace VanderluizProjeto2
 {
     public class Venda
     {
-
+        private string nome;
+        private string telefone;
         private string descricao;
         private double valorTotal;
         private Cliente cliente;
         public static LinkedList<Venda> vendasClientes = new LinkedList<Venda>();
 
+        public string Nome 
+        { 
+            get
+            {
+                return this.nome;
+            }
+            set
+            {
+                this.nome = value;
+            }
+        }
+        public string Telefone 
+        { 
+            get
+            {
+                return this.telefone;
+            }
+            set
+            {
+                this.telefone = value;
+            }
+        }
         public string Descricao 
         { 
             get
@@ -33,8 +56,19 @@ namespace VanderluizProjeto2
                 this.valorTotal = value;
             }
         }
+        public Cliente Cliente
+        { 
+            get
+            {
+                return this.cliente;
+            }
+            set
+            {
+                this.cliente = value;
+            }
+        }
 
-        public int Quantidade
+        public static int Quantidade
         {
             get
             {
@@ -49,7 +83,7 @@ namespace VanderluizProjeto2
         
         public override string ToString()
         {
-            return "Cliente{" + "nome=" + cliente.Nome + ", telefone=" + cliente.Telefone + ", descrição=" + descricao + ", valor total=" + valorTotal +"}";
+            return "Cliente{" + "nome=" + Nome + ", telefone=" + Telefone + ", descrição=" + Descricao + ", valor total=" + ValorTotal +"}";
         }
 
         public static void ConsultarVendas()

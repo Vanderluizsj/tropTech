@@ -15,7 +15,7 @@ namespace VanderluizProjeto2
                 do // repete se o campo opcaoStr for deixado em branco ou se a opção voltar for escolhida em um submenu
                 {
                     Console.Clear(); 
-                    Console.ForegroundColor = ConsoleColor.DarkBlue; 
+                    Console.ForegroundColor = ConsoleColor.Blue; 
                     Console.WriteLine("--------------------------------------------------");
                     Console.WriteLine("        Bem vindo ao cadastro de Clientes!        ");
                     Console.WriteLine("--------------------------------------------------");
@@ -44,7 +44,7 @@ namespace VanderluizProjeto2
                             //Menu de cadastro de clientes
                             Console.Clear();
                             Gerenciador.Cadastrar();                            
-                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("Cliente cadastrado com sucesso.");                            
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
@@ -53,7 +53,7 @@ namespace VanderluizProjeto2
                         case "2":
                             Console.Clear();
                             Gerenciador.ExibirLista(cliente);                            
-                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();
@@ -61,7 +61,7 @@ namespace VanderluizProjeto2
                         case "3":
                             Console.Clear();
                             Gerenciador.ConsultarCliente(cliente);
-                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();
@@ -69,7 +69,7 @@ namespace VanderluizProjeto2
                         case "4":
                             Console.Clear();
                              Gerenciador.RemoverCliente(cliente);                             
-                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();                       
@@ -77,23 +77,24 @@ namespace VanderluizProjeto2
                         case "5":
                             Console.Clear();
                             Gerenciador.CadastrarVenda();                             
-                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();                       
                             break;
                         case "6":
-                            Gerenciador.ExibirVendas(venda);                             
-                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Gerenciador.ExibirVendas();                             
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();                       
                             break;
                         case "7":
                             Console.Clear();
+                            Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine("Obrigado por usar nosso sistema e apoir nosso trabalho!");
                             Console.WriteLine("Até a proxima!");
-                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("\nPressione qualquer tecla para continuar.");
                             Console.ForegroundColor = ConsoleColor.White;
                             Console.ReadKey();
