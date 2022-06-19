@@ -1,0 +1,16 @@
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\obj\Debug\net5.0\VanderluizProjeto3.csproj.AssemblyReference.cache
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\obj\Debug\net5.0\VanderluizProjeto3.GeneratedMSBuildEditorConfig.editorconfig
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\obj\Debug\net5.0\VanderluizProjeto3.AssemblyInfoInputs.cache
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\obj\Debug\net5.0\VanderluizProjeto3.AssemblyInfo.cs
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\obj\Debug\net5.0\VanderluizProjeto3.csproj.CoreCompileInputs.cache
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\bin\Debug\net5.0\VanderluizProjeto3.exe
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\bin\Debug\net5.0\VanderluizProjeto3.deps.json
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\bin\Debug\net5.0\VanderluizProjeto3.runtimeconfig.json
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\bin\Debug\net5.0\VanderluizProjeto3.runtimeconfig.dev.json
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\bin\Debug\net5.0\VanderluizProjeto3.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\bin\Debug\net5.0\ref\VanderluizProjeto3.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\bin\Debug\net5.0\VanderluizProjeto3.pdb
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\obj\Debug\net5.0\VanderluizProjeto3.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\obj\Debug\net5.0\ref\VanderluizProjeto3.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\obj\Debug\net5.0\VanderluizProjeto3.pdb
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto3\obj\Debug\net5.0\VanderluizProjeto3.genruntimeconfig.cache
