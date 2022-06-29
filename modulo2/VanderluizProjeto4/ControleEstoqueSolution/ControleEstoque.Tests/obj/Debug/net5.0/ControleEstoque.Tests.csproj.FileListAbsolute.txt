@@ -99,3 +99,6 @@ d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\Cont
 d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque.Tests\obj\Debug\net5.0\ref\ControleEstoque.Tests.dll
 d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque.Tests\obj\Debug\net5.0\ControleEstoque.Tests.pdb
 d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque.Tests\obj\Debug\net5.0\ControleEstoque.Tests.genruntimeconfig.cache
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque.Tests\bin\Debug\net5.0\ControleEstoque.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque.Tests\bin\Debug\net5.0\ControleEstoque.pdb

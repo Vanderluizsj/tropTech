@@ -10,3 +10,15 @@ C:\Users\anna.laura\source\repos\ControleEstoqueSolution\ControleEstoque\obj\Deb
 C:\Users\anna.laura\source\repos\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\refint\ControleEstoque.dll
 C:\Users\anna.laura\source\repos\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ControleEstoque.pdb
 C:\Users\anna.laura\source\repos\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ref\ControleEstoque.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\bin\Debug\net5.0\ControleEstoque.deps.json
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\bin\Debug\net5.0\ControleEstoque.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\bin\Debug\net5.0\ref\ControleEstoque.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\bin\Debug\net5.0\ControleEstoque.pdb
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ControleEstoque.csproj.AssemblyReference.cache
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ControleEstoque.GeneratedMSBuildEditorConfig.editorconfig
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ControleEstoque.AssemblyInfoInputs.cache
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ControleEstoque.AssemblyInfo.cs
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ControleEstoque.csproj.CoreCompileInputs.cache
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ControleEstoque.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ref\ControleEstoque.dll
+d:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto4\ControleEstoqueSolution\ControleEstoque\obj\Debug\net5.0\ControleEstoque.pdb

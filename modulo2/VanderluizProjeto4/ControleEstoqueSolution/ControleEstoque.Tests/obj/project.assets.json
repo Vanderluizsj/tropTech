@@ -1253,6 +1253,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "ControleEstoque/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ControleEstoque.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControleEstoque.dll": {}
+        }
       }
     }
   },
@@ -4934,10 +4944,16 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "ControleEstoque/1.0.0": {
+      "type": "project",
+      "path": "../ControleEstoque/ControleEstoque.csproj",
+      "msbuildProject": "../ControleEstoque/ControleEstoque.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "ControleEstoque >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NUnit >= 3.13.1",
       "NUnit3TestAdapter >= 3.17.0",
@@ -4950,11 +4966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque.Tests\\ControleEstoque.Tests.csproj",
+      "projectUniqueName": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque.Tests\\ControleEstoque.Tests.csproj",
       "projectName": "ControleEstoque.Tests",
-      "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque.Tests\\ControleEstoque.Tests.csproj",
+      "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque.Tests\\ControleEstoque.Tests.csproj",
       "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque.Tests\\obj\\",
+      "outputPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4970,7 +4986,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque\\ControleEstoque.csproj": {
+              "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque\\ControleEstoque.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

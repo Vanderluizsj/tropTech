@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\anna.laura\\.nuget\\packages\\": {}
+    "C:\\Users\\Amishel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anna.laura\\source\\repos\\ControleEstoqueSolution\\ControleEstoque\\ControleEstoque.csproj",
+      "projectUniqueName": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque\\ControleEstoque.csproj",
       "projectName": "ControleEstoque",
-      "projectPath": "C:\\Users\\anna.laura\\source\\repos\\ControleEstoqueSolution\\ControleEstoque\\ControleEstoque.csproj",
-      "packagesPath": "C:\\Users\\anna.laura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anna.laura\\source\\repos\\ControleEstoqueSolution\\ControleEstoque\\obj\\",
+      "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque\\ControleEstoque.csproj",
+      "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
+      "outputPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto4\\ControleEstoqueSolution\\ControleEstoque\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anna.laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
