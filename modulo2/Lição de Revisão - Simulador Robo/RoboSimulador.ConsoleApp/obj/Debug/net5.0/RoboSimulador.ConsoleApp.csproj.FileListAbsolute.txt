@@ -1,0 +1,16 @@
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\bin\Debug\net5.0\RoboSimulador.ConsoleApp.exe
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\bin\Debug\net5.0\RoboSimulador.ConsoleApp.deps.json
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\bin\Debug\net5.0\RoboSimulador.ConsoleApp.runtimeconfig.json
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\bin\Debug\net5.0\RoboSimulador.ConsoleApp.runtimeconfig.dev.json
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\bin\Debug\net5.0\RoboSimulador.ConsoleApp.dll
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\bin\Debug\net5.0\ref\RoboSimulador.ConsoleApp.dll
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\bin\Debug\net5.0\RoboSimulador.ConsoleApp.pdb
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\obj\Debug\net5.0\RoboSimulador.ConsoleApp.csproj.AssemblyReference.cache
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\obj\Debug\net5.0\RoboSimulador.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\obj\Debug\net5.0\RoboSimulador.ConsoleApp.AssemblyInfoInputs.cache
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\obj\Debug\net5.0\RoboSimulador.ConsoleApp.AssemblyInfo.cs
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\obj\Debug\net5.0\RoboSimulador.ConsoleApp.csproj.CoreCompileInputs.cache
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\obj\Debug\net5.0\RoboSimulador.ConsoleApp.dll
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\obj\Debug\net5.0\ref\RoboSimulador.ConsoleApp.dll
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\obj\Debug\net5.0\RoboSimulador.ConsoleApp.pdb
+d:\GitHub\aulas\tropTech\modulo2\Lição de Revisão - Simulador Robo\RoboSimulador.ConsoleApp\obj\Debug\net5.0\RoboSimulador.ConsoleApp.genruntimeconfig.cache

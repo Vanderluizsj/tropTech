@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A35\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A35\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A35\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj",
+        "projectName": "MercadoDoZe.ConsoleApp",
+        "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A35\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A35\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
