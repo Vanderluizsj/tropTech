@@ -15,7 +15,7 @@ namespace MercadoDoZe.ConsoleApp
         {
             var opcaoStr = String.Empty;
             Console.Clear(); 
-            while (opcaoStr != "5")
+            while (opcaoStr != "7")
             {        
                 Console.Clear();         
                 System.Console.WriteLine("------------------------------");
@@ -25,7 +25,9 @@ namespace MercadoDoZe.ConsoleApp
                 System.Console.WriteLine("|   [2] Modificar registros. |");
                 System.Console.WriteLine("|   [3] Apagar registros.    |");
                 System.Console.WriteLine("|   [4] Consultar registros. |");
-                System.Console.WriteLine("|   [5] Sair                 |");
+                System.Console.WriteLine("|   [5] Entrada de produtos. |");
+                System.Console.WriteLine("|   [6] Saida de produtos.   |");
+                System.Console.WriteLine("|   [7] Sair                 |");
                 System.Console.WriteLine("------------------------------");
                 opcaoStr = Console.ReadLine();
             
@@ -43,7 +45,7 @@ namespace MercadoDoZe.ConsoleApp
                         break;
                     case "3":
                         Console.Clear();                               
-                        Apagar.ApagarRegistro();
+                        Apagar.ApagarRegistro(produto, produtoDAO);
                         Console.ReadKey(); 
                         break;
                     case "4":
@@ -52,6 +54,16 @@ namespace MercadoDoZe.ConsoleApp
                         Console.ReadKey(); 
                         break;
                     case "5":
+                        Console.Clear();
+                        EntradaSaidaEstoque.Entrada(produto, produtoDAO);
+                        Console.ReadKey(); 
+                        break;
+                    case "6":
+                        Console.Clear();
+                        EntradaSaidaEstoque.Saida(produto, produtoDAO);
+                        Console.ReadKey(); 
+                        break;
+                    case "7":
                         Console.Clear();
                         Console.ForegroundColor = ConsoleColor.Green;                               
                         System.Console.WriteLine("Obrigado por utilizar nossas soluções. Precione enter para sair!");
