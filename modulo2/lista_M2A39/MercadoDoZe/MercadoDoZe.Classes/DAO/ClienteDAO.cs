@@ -32,9 +32,9 @@ namespace MercadoDoZe.Classes.DAO
                 }
             }
         }
-        public List<Produto> BuscarTodos()
+        public List<Cliente> BuscarTodos()
         {
-            var listaProdutos= new List<Produto>();
+            var listaClientes= new List<Cliente>();
 
             using (var conexao = new SqlConnection(_connectionString))
             {
@@ -43,7 +43,7 @@ namespace MercadoDoZe.Classes.DAO
                 {
                     comando.Connection = conexao;
 
-                    string sql = @"SELECT * FROM PRODUTO";
+                    string sql = @"SELECT * FROM CLIENTE";
 
                     comando.CommandText = sql;
 
@@ -53,22 +53,22 @@ namespace MercadoDoZe.Classes.DAO
                     while (leitor.Read())
                     {
                         validarConsulta = true;
-                        Produto produtoBuscado = ConverterSqlParaObjeto(leitor);
+                        Cliente clienteBuscado = ConverterSqlParaObjeto(leitor);
 
-                        listaProdutos.Add(produtoBuscado);
+                        listaClientes.Add(clienteBuscado);
                         
                     }
                     if (!validarConsulta)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        System.Console.WriteLine("A tabela PRODUTO esta vazia.");
+                        System.Console.WriteLine("A tabela CLIENTE esta vazia.");
                     }
                 }
             }
 
-            return listaProdutos;
+            return listaClientes;
         }
-        public void DeletarProduto(Produto produtoBuscado)
+        public void DeletarCliente(Cliente clienteBuscado)
         {
             using (var conexao = new SqlConnection(_connectionString))
             {
@@ -78,9 +78,9 @@ namespace MercadoDoZe.Classes.DAO
                 {
                     comando.Connection = conexao; 
 
-                    string sql = @"DELETE FROM PRODUTO WHERE ID = @ID;";
+                    string sql = @"DELETE FROM CLIENTE WHERE CPF = @CPF;";
 
-                    comando.Parameters.AddWithValue("@ID", produtoBuscado.Id);
+                    comando.Parameters.AddWithValue("@CPF", clienteBuscado.Cpf);
 
                     comando.CommandText = sql;
 
@@ -88,7 +88,7 @@ namespace MercadoDoZe.Classes.DAO
                 }
             }
         }
-        public void DeletarTodosOsProdutos()
+        public void DeletarTodosOsClientes()
         {
             using (var conexao = new SqlConnection(_connectionString))
             {
@@ -98,10 +98,7 @@ namespace MercadoDoZe.Classes.DAO
                 {
                     comando.Connection = conexao; 
 
-                    string sql = @"DELETE FROM PRODUTO;"
-                               + @"DBCC CHECKIDENT ('PRODUTO', RESEED, 0);";
-
-                    //comando.ExecuteScalar();
+                    string sql = @"DELETE FROM CLIENTE;";
 
                     comando.CommandText = sql;
 
@@ -109,7 +106,7 @@ namespace MercadoDoZe.Classes.DAO
                 }
             }
         }
-        public void AtualizarProduto(Produto produtoBuscado) 
+        public void AtualizarCliente(Cliente clienteBuscado) 
         {
             using (var conexao = new SqlConnection(_connectionString))
             {
@@ -119,37 +116,18 @@ namespace MercadoDoZe.Classes.DAO
                 {
                     comando.Connection = conexao; 
 
-                    string sql = @"UPDATE PRODUTO SET            
+                    string sql = @"UPDATE CLIENTE SET            
                                         NOME = @NOME,
-                                        DESCRICAO = @DESCRICAO,
-                                        DATA_VENCIMENTO = @VENCIMENTO,
-                                        PRECO_UNITARIO = @PRECO,
-                                        UNIDADE = @UNIDADE
-                                 WHERE ID = @ID;";
+                                        DATA_NASCIMENTO = @DATA_NASCIMENTO,
+                                        RUA = @RUA,
+                                        NUMERO = @NUMERO,
+                                        BAIRRO = @BAIRRO,
+                                        CEP = @CEP,
+                                        COMPLEMENTO = @COMPLEMENTO
+                                 WHERE CPF = @CPF_CLIENTE;";
 
-                    ConverteObjetoParaSql(produtoBuscado, comando);
-                    comando.Parameters.AddWithValue("@ID", produtoBuscado.Id);
-
-                    comando.CommandText = sql;
-
-                    comando.ExecuteNonQuery();
-                }
-            }
-        }
-        public void EntradaESaidaEstoque(Produto produtoBuscado)
-        {
-            using (var conexao = new SqlConnection(_connectionString))
-            {
-                conexao.Open();
-
-                using (var comando = new SqlCommand())
-                {
-                    comando.Connection = conexao; 
-
-                    string sql = @"UPDATE PRODUTO SET QTD_ESTOQUE = @QUANTIDADE_ESTOQUE WHERE ID = @ID;";
-
-                    ConverteObjetoParaSql(produtoBuscado, comando);
-                    comando.Parameters.AddWithValue("@ID", produtoBuscado.Id);
+                    ConverteObjetoParaSql(clienteBuscado, comando);
+                    comando.Parameters.AddWithValue("@CPF_CLIENTE", clienteBuscado.Cpf);
 
                     comando.CommandText = sql;
 
@@ -157,9 +135,10 @@ namespace MercadoDoZe.Classes.DAO
                 }
             }
         }
-        public List<Produto> BuscaPorTexto(string descricao)
+        
+        public List<Cliente> BuscaPorNome(string nome)
         {
-            var listaProduto = new List<Produto>(); 
+            var listaClientes= new List<Cliente>(); 
 
             using (var conexao = new SqlConnection(_connectionString))
             {
@@ -169,10 +148,9 @@ namespace MercadoDoZe.Classes.DAO
                 {
                     comando.Connection = conexao; 
 
-                    string sql = @"SELECT ID, NOME, DESCRICAO, DATA_VENCIMENTO, 
-                    PRECO_UNITARIO,  UNIDADE, QTD_ESTOQUE FROM PRODUTO WHERE DESCRICAO LIKE @TEXTO;"; 
+                    string sql = @"SELECT CPF, NOME, DATA_NASCIMENTO, PONTOS_FIDELIDADE, RUA, NUMERO, BAIRRO, CEP, COMPLEMENTO FROM CLIENTE WHERE NOME LIKE @TEXTO;"; 
 
-                    comando.Parameters.AddWithValue("@TEXTO", $"%{descricao}%");
+                    comando.Parameters.AddWithValue("@TEXTO", $"%{nome}%");
 
                     comando.CommandText = sql;
 
@@ -181,24 +159,25 @@ namespace MercadoDoZe.Classes.DAO
                     while (leitor.Read())
                     {
                         validarConsulta = true;
-                        var produtoBuscado = ConverterSqlParaObjeto(leitor);
+                        var clienteBuscado = ConverterSqlParaObjeto(leitor);
                         
-                        listaProduto.Add(produtoBuscado);
+                        listaClientes.Add(clienteBuscado);
                     }
                     if (!validarConsulta)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        System.Console.WriteLine($"Não tem nenhum produto na tabela PRODUTO "
-                                                +$"com a descrição indicada.");
+                        System.Console.WriteLine($"Não tem nenhum cliente na tabela CLIENTE "
+                                                +$"com o nome indicado.");
                         Console.ForegroundColor = ConsoleColor.White;
                     }
                 }
             }
-            return listaProduto;
+            return listaClientes;
         }
-        public Produto BuscarPorId(int id)
+        
+        public Cliente BuscarPorCpf(long cpf)
         {
-            var produtoBuscado = new Produto();
+            var clienteBuscado = new Cliente();
 
             using (var conexao = new SqlConnection(_connectionString))
             {
@@ -208,9 +187,9 @@ namespace MercadoDoZe.Classes.DAO
                 {
                     comando.Connection = conexao; 
 
-                    string sql = @"SELECT ID, NOME, DESCRICAO, DATA_VENCIMENTO, PRECO_UNITARIO, UNIDADE,QTD_ESTOQUE FROM PRODUTO WHERE ID = @ID;"; 
+                    string sql = @"SELECT CPF, NOME, DATA_NASCIMENTO, PONTOS_FIDELIDADE, RUA, NUMERO, BAIRRO, CEP, COMPLEMENTO FROM CLIENTE WHERE CPF = @CPF_CLIENTE;"; 
 
-                    comando.Parameters.AddWithValue("@ID", id);
+                    comando.Parameters.AddWithValue("@CPF_CLIENTE", cpf);
 
                     comando.CommandText = sql;
 
@@ -219,42 +198,20 @@ namespace MercadoDoZe.Classes.DAO
                     while (leitor.Read())
                     {
                         validarConsulta = true;
-                        produtoBuscado = ConverterSqlParaObjeto(leitor);
+                        clienteBuscado = ConverterSqlParaObjeto(leitor);
                     }
                     if (!validarConsulta)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        System.Console.WriteLine($"Não tem nenhum produto na tabela PRODUTO "
-                                                +$"com o ID indicado.");
+                        System.Console.WriteLine($"Não tem nenhum cliente na tabela CLIENTE "
+                                                +$"com o CPF indicado.");
                         Console.ForegroundColor = ConsoleColor.White;
                     }
                 }
             }
 
-            return produtoBuscado;
+            return clienteBuscado;
         }
-        public void EntradaSaidaEstoque(Produto produtoBuscado)
-        {
-            using (var conexao = new SqlConnection(_connectionString))
-            {
-                conexao.Open(); 
-
-                using (var comando = new SqlCommand())
-                {
-                    comando.Connection = conexao; 
-
-                    string sql = @"UPDATE PRODUTO SET QTD_ESTOQUE = @QTD_ESTOQUE WHERE ID = @ID;";
-
-                    ConverteObjetoParaSql(produtoBuscado, comando);
-                    comando.Parameters.AddWithValue("@ID", produtoBuscado.Id);
-
-                    comando.CommandText = sql;
-
-                    comando.ExecuteNonQuery();
-                }
-            }
-        }
-
         private void ConverteObjetoParaSql(Cliente cliente, SqlCommand comando)
         {
                 comando.Parameters.AddWithValue("@CPF", cliente.Cpf);

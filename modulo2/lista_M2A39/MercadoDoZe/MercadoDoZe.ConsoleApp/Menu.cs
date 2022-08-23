@@ -17,7 +17,9 @@ namespace MercadoDoZe.ConsoleApp
             Console.Clear(); 
             while (opcaoStr != "7")
             {        
-                Console.Clear();         
+                Console.Clear();
+                System.Console.WriteLine("------------------------------");         
+                System.Console.WriteLine("--       MENU PRODUTO       --");
                 System.Console.WriteLine("------------------------------");
                 System.Console.WriteLine("| Digite o que deseja fazer: |");
                 System.Console.WriteLine("------------------------------");
@@ -27,7 +29,7 @@ namespace MercadoDoZe.ConsoleApp
                 System.Console.WriteLine("|   [4] Consultar registros. |");
                 System.Console.WriteLine("|   [5] Entrada de produtos. |");
                 System.Console.WriteLine("|   [6] Saida de produtos.   |");
-                System.Console.WriteLine("|   [7] Sair                 |");
+                System.Console.WriteLine("|   [7] Voltar.              |");
                 System.Console.WriteLine("------------------------------");
                 opcaoStr = Console.ReadLine();
                 
@@ -64,11 +66,7 @@ namespace MercadoDoZe.ConsoleApp
                         Console.ReadKey(); 
                         break;
                     case "7":
-                        Console.Clear();
-                        Console.ForegroundColor = ConsoleColor.Green;                               
-                        System.Console.WriteLine("Obrigado por utilizar nossas soluções. Precione enter para sair!");
-                        Console.ForegroundColor = ConsoleColor.White;
-                        Console.ReadKey(); 
+                         
                         break;
                     default:
                         break;
@@ -84,7 +82,9 @@ namespace MercadoDoZe.ConsoleApp
             Console.Clear(); 
             while (opcaoStr != "5")
             {        
-                Console.Clear();         
+                Console.Clear();
+                System.Console.WriteLine("------------------------------");
+                System.Console.WriteLine("--       MENU CLIENTE       --");         
                 System.Console.WriteLine("------------------------------");
                 System.Console.WriteLine("| Digite o que deseja fazer: |");
                 System.Console.WriteLine("------------------------------");
@@ -92,7 +92,7 @@ namespace MercadoDoZe.ConsoleApp
                 System.Console.WriteLine("|   [2] Modificar registros. |");
                 System.Console.WriteLine("|   [3] Apagar registros.    |");
                 System.Console.WriteLine("|   [4] Consultar registros. |");
-                System.Console.WriteLine("|   [5] Voltar               |");
+                System.Console.WriteLine("|   [5] Voltar.              |");
                 System.Console.WriteLine("------------------------------");
                 opcaoStr = Console.ReadLine();
                 

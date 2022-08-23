@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj": {}
+    "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj": {}
   },
   "projects": {
-    "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj": {
+    "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj",
+        "projectUniqueName": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj",
         "projectName": "MercadoDoZe.Classes",
-        "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj",
+        "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj",
         "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
-        "outputPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\obj\\",
+        "outputPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj": {
+    "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj",
+        "projectUniqueName": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj",
         "projectName": "MercadoDoZe.ConsoleApp",
-        "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj",
+        "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
-        "outputPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\obj\\",
+        "outputPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -84,8 +84,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj": {
-                "projectPath": "d:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj"
+              "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj": {
+                "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.Classes\\MercadoDoZe.Classes.csproj"
               }
             }
           }

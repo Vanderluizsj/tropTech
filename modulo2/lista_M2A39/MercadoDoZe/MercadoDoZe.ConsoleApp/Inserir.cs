@@ -60,7 +60,7 @@ namespace MercadoDoZe.ConsoleApp
             {
                 Console.Clear(); 
                 Console.WriteLine("--------------------------");
-                Console.WriteLine("--- CADASTRAR PRODUTOS ---");
+                Console.WriteLine("--- CADASTRAR CLIENTES ---");
                 Console.WriteLine("--------------------------");
                 Console.WriteLine("|    [1] Cadastrar.      |");
                 Console.WriteLine("|    [2] Voltar.         |");
@@ -76,8 +76,7 @@ namespace MercadoDoZe.ConsoleApp
                         cliente.Nome = Console.ReadLine();
                         Console.WriteLine("Digite a data de nascimento do cliente: (ex: 02-02-2002)");                        
                         cliente.DataNascimento = Convert.ToDateTime(Console.ReadLine());
-                        Console.WriteLine("Digite a quantidade de pontos do cliente: (ex: 200)");
-                        cliente.PontosFidelidade = int.Parse(Console.ReadLine());
+                        cliente.PontosFidelidade = 0;
                         Endereco endereco = new Endereco(); 
                         Console.WriteLine("Digite o Bairro do cliente: (ex: Santa Clara)");
                         endereco.Bairro = Console.ReadLine();

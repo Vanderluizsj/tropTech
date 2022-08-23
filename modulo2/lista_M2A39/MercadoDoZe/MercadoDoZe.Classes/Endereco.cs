@@ -14,6 +14,13 @@ namespace MercadoDoZe.Classes
         {
             return $" - Endereço - \n Rua: {Rua}\n Número: {Numero}\n Bairro: {Bairro}\n Cep: {Cep}\n Complemento: {Complemento}";
         }
+        public string Completo
+        {
+            get
+            {
+                return $" - Endereço - \n Rua: {Rua}\n Número: {Numero}\n Bairro: {Bairro}\n Cep: {Cep}\n Complemento: {Complemento}";
+            }
+        }
 
     }
 }

@@ -19,7 +19,7 @@ namespace MercadoDoZe.Classes
         public override string ToString()
         {
             return $" Cpf:{Cpf}\n Nome: {Nome}\n Nascimento: {DataNascimento.ToShortDateString()}\n"
-                  +$" Pontos de Fidelidade: {PontosFidelidade} Endereço: {Endereco.ToString()}";
+                  +$" Pontos de Fidelidade: {PontosFidelidade} \n {Endereco.Completo}";
         }
 
         
