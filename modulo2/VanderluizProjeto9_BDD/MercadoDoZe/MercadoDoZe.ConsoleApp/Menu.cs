@@ -162,12 +162,12 @@ namespace MercadoDoZe.ConsoleApp
                         Apagar.ApagarRegistroPedido(pedido, pedidoDAO);
                         Console.ReadKey(); 
                         break;
-                    case "4":
+                    case "3":
                         Console.Clear();                               
                         Consultar.ConsultarRegistroPedido(pedido, pedidoDAO);
                         Console.ReadKey(); 
                         break;
-                    case "5":                      
+                    case "4":                      
                                                
                         break;
                     default:

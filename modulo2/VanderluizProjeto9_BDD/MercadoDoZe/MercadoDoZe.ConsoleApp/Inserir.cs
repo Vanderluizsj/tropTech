@@ -125,8 +125,8 @@ namespace MercadoDoZe.ConsoleApp
                 switch (opcaoStr)
                 {
                     case "1":
-                        Console.Clear();         
-                                                
+                        Console.Clear();
+
                         Console.WriteLine("Digite o codigo do produto: (ex. 1)");
                         var id = int.Parse(Console.ReadLine());
                         
@@ -145,10 +145,14 @@ namespace MercadoDoZe.ConsoleApp
 
                             pedido.IdProduto = produto.Id;
 
-                            Console.WriteLine("Digite a data e hora do pedido: (ex: 02/02/2022 11:20)");                   
+                            Console.WriteLine("\nDigite a data e hora do pedido: (ex: 02/02/2022 11:20)");                   
                             pedido.DataPedido = Convert.ToDateTime(Console.ReadLine());
-                            Console.WriteLine("Digite o cpf do cliente: (ex. 02112344455)");
-                            pedido.CpfCliente = long.Parse(Console.ReadLine());
+                            Console.WriteLine("Digite o cpf do cliente se houver: (ex. 02112344455)");
+                            var testeCpfPedido = Console.ReadLine();
+                            if (!String.IsNullOrEmpty(testeCpfPedido))
+                            {
+                               pedido.CpfCliente = long.Parse(testeCpfPedido); 
+                            }                            
                             
                             Console.WriteLine("Digite a quantidade do produto a ser reservada: (ex. 5)");
                             pedido.QtdReservado = int.Parse(Console.ReadLine());
@@ -166,16 +170,15 @@ namespace MercadoDoZe.ConsoleApp
                                 pedido.ValorTotalPedido = (decimal) produto.Preco * (decimal) pedido.QtdReservado;
                                 produto.SaidaEstoque(pedido.QtdReservado);
                                 produtoDAO.EntradaSaidaEstoque(produto);
-                                Console.WriteLine($"Quantidade atual no estoque: {produto.QuantidadeEstoque}");
-                            }                          
-         
-                         
-                            pedidoDAO.AdicionarPedido(pedido);
+                                Console.WriteLine($"Quantidade atual no estoque: {produto.QuantidadeEstoque}");                                                    
+                                  
+                                pedidoDAO.AdicionarPedido(pedido);
 
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            System.Console.WriteLine("Registro inserido com sucesso. Precione enter para continuar!");
-                            Console.ForegroundColor = ConsoleColor.White;                        
-                            Console.ReadKey();
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                System.Console.WriteLine("Registro inserido com sucesso. Precione enter para continuar!");
+                                Console.ForegroundColor = ConsoleColor.White;                        
+                                Console.ReadKey();
+                            }
                         } 
                     break;
                         

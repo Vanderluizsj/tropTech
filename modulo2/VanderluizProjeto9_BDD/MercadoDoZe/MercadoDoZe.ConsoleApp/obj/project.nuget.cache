@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JSQt8PDK8ejr0Qgo8yVxSfid3GSq2eGMEvbCzteWKhzfGp95wYMuL+aaZzajoIEMTuRWDefxridccTZmUFN2xw==",
+  "dgSpecHash": "V51+qZXRQwAvLCMVsevf17Kfb9VVcJBIz5aDTXJTN6Z0UUNCewECnK50T6lQIx8fCYl4RvFGTdpY9rIDxlf8cQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\lista_M2A39\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj",
+  "projectFilePath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto9_BDD\\MercadoDoZe\\MercadoDoZe.ConsoleApp\\MercadoDoZe.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amishel\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Amishel\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

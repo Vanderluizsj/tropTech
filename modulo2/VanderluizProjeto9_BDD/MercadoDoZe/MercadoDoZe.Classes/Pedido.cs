@@ -18,9 +18,9 @@ namespace MercadoDoZe.Classes
 
         public override string ToString()
         {
-            return $"Id do pedido: {Id}\n Data do pedido: {DataPedido}\n Cpf do cliente: {CpfCliente}\n"
-                 + $"Código do produto: {IdProduto}\n Quantidade reservada: {QtdReservado}\n"
-                 + $"Valor total do pedido: {ValorTotalPedido}";
+            return $"Id do pedido: {Id}\n    Data do pedido: {DataPedido}\n    Cpf do cliente: {CpfCliente}\n"
+                 + $"    Código do produto: {IdProduto}\n    Quantidade reservada: {QtdReservado}\n"
+                 + $"    Valor total do pedido: {ValorTotalPedido}\n ----------------------------";
         }
     }
 }

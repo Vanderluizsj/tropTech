@@ -22,3 +22,15 @@ D:\GitHub\aulas\tropTech\modulo2\lista_M2A39\MercadoDoZe\MercadoDoZe.Classes\obj
 D:\GitHub\aulas\tropTech\modulo2\lista_M2A39\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\MercadoDoZe.Classes.dll
 D:\GitHub\aulas\tropTech\modulo2\lista_M2A39\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\ref\MercadoDoZe.Classes.dll
 D:\GitHub\aulas\tropTech\modulo2\lista_M2A39\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\MercadoDoZe.Classes.pdb
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\bin\Debug\net5.0\MercadoDoZe.Classes.deps.json
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\bin\Debug\net5.0\MercadoDoZe.Classes.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\bin\Debug\net5.0\ref\MercadoDoZe.Classes.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\bin\Debug\net5.0\MercadoDoZe.Classes.pdb
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\MercadoDoZe.Classes.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\MercadoDoZe.Classes.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\MercadoDoZe.Classes.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\MercadoDoZe.Classes.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\MercadoDoZe.Classes.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\MercadoDoZe.Classes.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\ref\MercadoDoZe.Classes.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto9_BDD\MercadoDoZe\MercadoDoZe.Classes\obj\Debug\net5.0\MercadoDoZe.Classes.pdb
