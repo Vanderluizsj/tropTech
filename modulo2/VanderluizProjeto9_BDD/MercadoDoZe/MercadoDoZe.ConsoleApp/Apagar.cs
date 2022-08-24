@@ -1,0 +1,212 @@
+using System;
+using System.Data.SqlClient;
+using MercadoDoZe.Classes;
+using MercadoDoZe.Classes.DAO;
+namespace MercadoDoZe.ConsoleApp
+{
+    public class Apagar
+    {
+        public static bool teste = false;
+        public static void ApagarRegistro(Produto produto, ProdutoDAO produtoDAO)
+        {
+            var opcaoStr = String.Empty;
+            while (opcaoStr != "3")
+            {
+                Console.Clear(); 
+                Console.WriteLine("--------------------------");
+                Console.WriteLine("---- APAGAR PRODUTOS -----");
+                Console.WriteLine("--------------------------");
+                Console.WriteLine("|    [1] APAGAR.         |");
+                Console.WriteLine("|    [2] APAGAR TUDO.    |");
+                Console.WriteLine("|    [3] Voltar.         |");
+                Console.WriteLine("--------------------------");           
+                opcaoStr = Console.ReadLine();
+                
+                switch (opcaoStr)
+                {
+                    case "1":
+                        Console.Clear();                               
+                        
+                        System.Console.WriteLine("Digite o ID do produto a ser APAGADO:");
+                        var id = int.Parse(Console.ReadLine());
+                        produto = produtoDAO.BuscarPorId(id);
+                        System.Console.WriteLine($"O produto que sera apagado é: {produto}");
+                        
+                        teste = Verificacao(teste);
+                        if (teste)
+                        {
+                            produtoDAO.DeletarProduto(produto);
+                        }                     
+                        
+                        Console.ReadKey(); 
+                        break;
+                    case "2":
+                        Console.Clear();
+                        System.Console.WriteLine("TODOS OS REGISTROS DA TABELA SERÃO APAGADOS!");
+                        
+                        teste = Verificacao(teste);
+                        if (teste)
+                        {
+                            produtoDAO.DeletarTodosOsProdutos();
+                        }
+                        
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        System.Console.WriteLine("Precione enter para continuar!");                        
+                        Console.ForegroundColor = ConsoleColor.White;                         
+                        break;
+                    case "3":
+                        Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        System.Console.WriteLine("Precione enter para continuar!");                        
+                        Console.ForegroundColor = ConsoleColor.White;                         
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+        }        
+        public static void ApagarRegistroCliente(Cliente cliente, ClienteDAO clienteDAO)
+        {
+            var opcaoStr = String.Empty;
+            while (opcaoStr != "3")
+            {
+                Console.Clear(); 
+                Console.WriteLine("--------------------------");
+                Console.WriteLine("---- APAGAR CLIENTE -----");
+                Console.WriteLine("--------------------------");
+                Console.WriteLine("|    [1] APAGAR.         |");
+                Console.WriteLine("|    [2] APAGAR TUDO.    |");
+                Console.WriteLine("|    [3] Voltar.         |");
+                Console.WriteLine("--------------------------");           
+                opcaoStr = Console.ReadLine();
+                
+                switch (opcaoStr)
+                {
+                    case "1":
+                        Console.Clear();                               
+                            
+                        System.Console.WriteLine("Digite o CPF do cliente a ser APAGADO:");
+                        var cpf = int.Parse(Console.ReadLine());
+                        cliente = clienteDAO.BuscarPorCpf(cpf);
+                        System.Console.WriteLine($"O cliente que sera apagado é: {cliente}");
+                            
+                        teste = Verificacao(teste);
+                        if (teste)
+                        {
+                            clienteDAO.DeletarCliente(cliente);
+                        }                     
+                        
+                        Console.ReadKey(); 
+                        break;
+                    case "2":
+                        Console.Clear();
+                        System.Console.WriteLine("TODOS OS REGISTROS DA TABELA SERÃO APAGADOS!");
+                            
+                        teste = Verificacao(teste);
+                        if (teste)
+                        {
+                            clienteDAO.DeletarTodosOsClientes();
+                        }
+                        
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        System.Console.WriteLine("Precione enter para continuar!");                        
+                        Console.ForegroundColor = ConsoleColor.White;                         
+                        break;
+                    case "3":
+                        Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        System.Console.WriteLine("Precione enter para continuar!");                        
+                        Console.ForegroundColor = ConsoleColor.White;                         
+                        break;
+                    default:
+                        break;
+                }
+                    
+            }
+
+        }        
+        public static void ApagarRegistroPedido(Pedido pedido, PedidoDAO pedidoDAO)
+        {
+            var opcaoStr = String.Empty;
+            while (opcaoStr != "3")
+            {
+                Console.Clear(); 
+                Console.WriteLine("--------------------------");
+                Console.WriteLine("----  APAGAR PEDIDO  -----");
+                Console.WriteLine("--------------------------");
+                Console.WriteLine("|    [1] APAGAR.         |");
+                Console.WriteLine("|    [2] APAGAR TUDO.    |");
+                Console.WriteLine("|    [3] Voltar.         |");
+                Console.WriteLine("--------------------------");           
+                opcaoStr = Console.ReadLine();
+                
+                switch (opcaoStr)
+                {
+                    case "1":
+                        Console.Clear();                               
+                            
+                        System.Console.WriteLine("Digite o ID do pedido a ser APAGADO:");
+                        var id = int.Parse(Console.ReadLine());
+                        pedido = pedidoDAO.BuscarPorId(id);
+                        System.Console.WriteLine($"O pedido que sera apagado é: {pedido}");
+                            
+                        teste = Verificacao(teste);
+                        if (teste)
+                        {
+                            pedidoDAO.DeletarPedido(pedido);
+                        }                     
+                        
+                        Console.ReadKey(); 
+                        break;
+                    case "2":
+                        Console.Clear();
+                        System.Console.WriteLine("TODOS OS REGISTROS DA TABELA SERÃO APAGADOS!");
+                            
+                        teste = Verificacao(teste);
+                        if (teste)
+                        {
+                            pedidoDAO.DeletarTodosOsPedidos();
+                        }
+                        
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        System.Console.WriteLine("Precione enter para continuar!");                        
+                        Console.ForegroundColor = ConsoleColor.White;                         
+                        break;
+                    case "3":
+                        Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        System.Console.WriteLine("Precione enter para continuar!");                        
+                        Console.ForegroundColor = ConsoleColor.White;                         
+                        break;
+                    default:
+                        break;
+                }
+                    
+            }
+
+        }        
+        public static bool Verificacao(bool teste)
+        {                
+            System.Console.WriteLine("Continuar? [1]SIM e [2]NÃO");
+            var verificacao = Console.ReadLine();                
+            Console.Clear();
+            if (verificacao == "1")
+            {
+                teste = true;                    
+                Console.ForegroundColor = ConsoleColor.Green;
+                System.Console.WriteLine("Registros apagados com sucesso. Precione enter para continuar!");
+                Console.ForegroundColor = ConsoleColor.White;   
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                System.Console.WriteLine("Operação cancelada!");
+                Console.ForegroundColor = ConsoleColor.White;
+                teste = false; 
+            }
+            return teste;
+        }        
+               
+    }
+}
