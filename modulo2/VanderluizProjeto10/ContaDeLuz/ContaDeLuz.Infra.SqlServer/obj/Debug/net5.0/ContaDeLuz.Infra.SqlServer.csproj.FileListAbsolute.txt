@@ -1,0 +1,15 @@
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\bin\Debug\net5.0\ContaDeLuz.Infra.SqlServer.deps.json
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\bin\Debug\net5.0\ContaDeLuz.Infra.SqlServer.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\bin\Debug\net5.0\ref\ContaDeLuz.Infra.SqlServer.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\bin\Debug\net5.0\ContaDeLuz.Infra.SqlServer.pdb
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\bin\Debug\net5.0\ContaDeLuz.Domain.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\bin\Debug\net5.0\ContaDeLuz.Domain.pdb
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\obj\Debug\net5.0\ContaDeLuz.Infra.SqlServer.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\obj\Debug\net5.0\ContaDeLuz.Infra.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\obj\Debug\net5.0\ContaDeLuz.Infra.SqlServer.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\obj\Debug\net5.0\ContaDeLuz.Infra.SqlServer.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\obj\Debug\net5.0\ContaDeLuz.Infra.SqlServer.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\obj\Debug\net5.0\ContaDeLuz.Infra.SqlServer.csproj.CopyComplete
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\obj\Debug\net5.0\ContaDeLuz.Infra.SqlServer.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\obj\Debug\net5.0\ref\ContaDeLuz.Infra.SqlServer.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Infra.SqlServer\obj\Debug\net5.0\ContaDeLuz.Infra.SqlServer.pdb

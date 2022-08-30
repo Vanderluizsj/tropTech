@@ -1,0 +1,12 @@
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\bin\Debug\net5.0\ContaDeLuz.Domain.deps.json
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\bin\Debug\net5.0\ContaDeLuz.Domain.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\bin\Debug\net5.0\ref\ContaDeLuz.Domain.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\bin\Debug\net5.0\ContaDeLuz.Domain.pdb
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\obj\Debug\net5.0\ContaDeLuz.Domain.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\obj\Debug\net5.0\ContaDeLuz.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\obj\Debug\net5.0\ContaDeLuz.Domain.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\obj\Debug\net5.0\ContaDeLuz.Domain.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\obj\Debug\net5.0\ContaDeLuz.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\obj\Debug\net5.0\ContaDeLuz.Domain.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\obj\Debug\net5.0\ref\ContaDeLuz.Domain.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto10\ContaDeLuz\ContaDeLuz.Domain\obj\Debug\net5.0\ContaDeLuz.Domain.pdb

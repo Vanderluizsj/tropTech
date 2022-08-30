@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ContaDeLuz.Domain/1.0.0": {
+        "runtime": {
+          "ContaDeLuz.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContaDeLuz.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
