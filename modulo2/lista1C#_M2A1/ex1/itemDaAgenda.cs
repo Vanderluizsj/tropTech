@@ -1,29 +1,29 @@
-namespace ex1
+namespace Agenda
 {
     public class ItemDaAgenda
     {
-        public static int quantidadeItens;
-        public string nome;
-        public string telefone;
-        public string endereco;
-        public string profissao;
-        
-        public itemDaAgenda(string nome, string telefone){
-            nome = this.nome;
-            telefone = this.telefone;
+        public static int QuantidadeDecontatosNaAgenda;
+        public string Nome;
+        public string Telefone;
+        public string Endereco;
+        public string Profissao;
 
-            quantidadeItens++;
+        public ItemDaAgenda(string nome, string telefone)
+        {
+            Nome = nome;
+            Telefone = telefone;
+
+            QuantidadeDecontatosNaAgenda++;
         }
 
-        public itemDaAgenda(string nome, string telefone, string endereco, string profissao){
-            nome = this.nome;
-            telefone = this.telefone;
-            endereco = this.endereco;
-            profissao = this.profissao;
+        public ItemDaAgenda(string nome, string telefone, string endereco, string profissao) : this(nome, telefone)
+        {
+            Nome = nome;
+            Telefone = telefone;
+            Endereco = endereco;
+            Profissao = profissao;
 
-            quantidadeItens++;
+            QuantidadeDecontatosNaAgenda++;
         }
-
-        
     }
 }

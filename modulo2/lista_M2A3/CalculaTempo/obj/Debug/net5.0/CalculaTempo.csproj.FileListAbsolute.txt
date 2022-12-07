@@ -1,0 +1,16 @@
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\bin\Debug\net5.0\CalculaTempo.exe
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\bin\Debug\net5.0\CalculaTempo.deps.json
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\bin\Debug\net5.0\CalculaTempo.runtimeconfig.json
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\bin\Debug\net5.0\CalculaTempo.runtimeconfig.dev.json
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\bin\Debug\net5.0\CalculaTempo.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\bin\Debug\net5.0\ref\CalculaTempo.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\bin\Debug\net5.0\CalculaTempo.pdb
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\obj\Debug\net5.0\CalculaTempo.csproj.AssemblyReference.cache
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\obj\Debug\net5.0\CalculaTempo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\obj\Debug\net5.0\CalculaTempo.AssemblyInfoInputs.cache
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\obj\Debug\net5.0\CalculaTempo.AssemblyInfo.cs
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\obj\Debug\net5.0\CalculaTempo.csproj.CoreCompileInputs.cache
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\obj\Debug\net5.0\CalculaTempo.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\obj\Debug\net5.0\ref\CalculaTempo.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\obj\Debug\net5.0\CalculaTempo.pdb
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaTempo\obj\Debug\net5.0\CalculaTempo.genruntimeconfig.cache

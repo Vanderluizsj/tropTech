@@ -1,0 +1,16 @@
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\bin\Debug\net5.0\Retangulo.exe
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\bin\Debug\net5.0\Retangulo.deps.json
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\bin\Debug\net5.0\Retangulo.runtimeconfig.json
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\bin\Debug\net5.0\Retangulo.runtimeconfig.dev.json
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\bin\Debug\net5.0\Retangulo.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\bin\Debug\net5.0\ref\Retangulo.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\bin\Debug\net5.0\Retangulo.pdb
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\obj\Debug\net5.0\Retangulo.csproj.AssemblyReference.cache
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\obj\Debug\net5.0\Retangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\obj\Debug\net5.0\Retangulo.AssemblyInfoInputs.cache
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\obj\Debug\net5.0\Retangulo.AssemblyInfo.cs
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\obj\Debug\net5.0\Retangulo.csproj.CoreCompileInputs.cache
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\obj\Debug\net5.0\Retangulo.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\obj\Debug\net5.0\ref\Retangulo.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\obj\Debug\net5.0\Retangulo.pdb
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\Retangulo\obj\Debug\net5.0\Retangulo.genruntimeconfig.cache

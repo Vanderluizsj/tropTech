@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(211, 215, 216, 0.945);
+}
+Table{
+    text-align: center;
+    border-width: 0.3rem;
+    border-style: ridge;
+    border-collapse: collapse;
+    width: 35rem;
+    right: 40rem;
+}
+th{
+    border-width: 0.05rem;
+    border-style: solid;
+}
+td{
+    border-width: 0.05rem;
+    border-style: solid;
+}
+figure img{
+    width: 35rem;
+    
+}

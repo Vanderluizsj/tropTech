@@ -1,0 +1,16 @@
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\obj\Debug\net5.0\Aluno.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\obj\Debug\net5.0\Aluno.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\obj\Debug\net5.0\Aluno.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\obj\Debug\net5.0\Aluno.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\obj\Debug\net5.0\Aluno.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\bin\Debug\net5.0\Aluno.exe
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\bin\Debug\net5.0\Aluno.deps.json
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\bin\Debug\net5.0\Aluno.runtimeconfig.json
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\bin\Debug\net5.0\Aluno.runtimeconfig.dev.json
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\bin\Debug\net5.0\Aluno.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\bin\Debug\net5.0\ref\Aluno.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\bin\Debug\net5.0\Aluno.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\obj\Debug\net5.0\Aluno.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\obj\Debug\net5.0\ref\Aluno.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\obj\Debug\net5.0\Aluno.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Aluno\obj\Debug\net5.0\Aluno.genruntimeconfig.cache

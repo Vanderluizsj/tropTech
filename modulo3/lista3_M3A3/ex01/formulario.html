@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+</head>
+
+<body>
+    <h1>Agenda!</h1>
+    <p>Cadastrar os contatos na sua agenda.</p>
+    <form action="./sucesso-contato.html" method="get">
+        <div>
+            <label for="nomeContato">Nome do contato:</label>
+            <input id="nomeContato" type="text" required />
+        </div>
+        <br>
+        <div>
+            <label for="telefoneContato">Telefone do contato:</label>
+            <input id="telefoneContato" type="text" required />
+        </div>
+        <br>
+        <div>
+            <label for="emailContato">Email do contato:</label>
+            <input id="emailContato" type="email" required />
+        </div>
+        <br>
+        <div>
+            <label for="categoriaContato">Categoria do contato:</label>
+            <select id="categoriaContato" required>
+                <option value="1">Pessoal</option>
+                <option value="2">Profissional</option>
+                <option value="3">Familiar</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="cpfContato">CPF do contato:</label>
+            <input id="cpfContato" type="string" />
+        </div>
+        <br>
+        <div>
+            <label for="enderecoContato">Endereço do contato:</label>
+            <input id="enderecoContato" type="string" />
+        </div>
+        <br>
+        <div>
+            <label for="dataNascimentoContato">Data de nascimento:</label>
+            <input id="dataNascimentoContato" type="date" required />
+        </div>
+        <br>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+
+</html>

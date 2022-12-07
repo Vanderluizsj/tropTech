@@ -1,0 +1,32 @@
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\bin\Debug\net5.0\AnimalDeEstimacao.exe
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\bin\Debug\net5.0\AnimalDeEstimacao.deps.json
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\bin\Debug\net5.0\AnimalDeEstimacao.runtimeconfig.json
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\bin\Debug\net5.0\AnimalDeEstimacao.runtimeconfig.dev.json
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\bin\Debug\net5.0\AnimalDeEstimacao.dll
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\bin\Debug\net5.0\AnimalDeEstimacao.pdb
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\AnimalDeEstimacao.csproj.AssemblyReference.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\AnimalDeEstimacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\AnimalDeEstimacao.AssemblyInfoInputs.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\AnimalDeEstimacao.AssemblyInfo.cs
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\AnimalDeEstimacao.csproj.CoreCompileInputs.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\AnimalDeEstimacao.dll
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\refint\AnimalDeEstimacao.dll
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\AnimalDeEstimacao.pdb
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\AnimalDeEstimacao.genruntimeconfig.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A1 - Classes\Exercicios\TropTech-M2A1\AnimalDeEstimacao\obj\Debug\net5.0\ref\AnimalDeEstimacao.dll
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\bin\Debug\net5.0\AnimalDeEstimacao.exe
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\bin\Debug\net5.0\AnimalDeEstimacao.deps.json
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\bin\Debug\net5.0\AnimalDeEstimacao.runtimeconfig.json
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\bin\Debug\net5.0\AnimalDeEstimacao.runtimeconfig.dev.json
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\bin\Debug\net5.0\AnimalDeEstimacao.dll
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\bin\Debug\net5.0\ref\AnimalDeEstimacao.dll
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\bin\Debug\net5.0\AnimalDeEstimacao.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\obj\Debug\net5.0\AnimalDeEstimacao.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\obj\Debug\net5.0\AnimalDeEstimacao.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\obj\Debug\net5.0\AnimalDeEstimacao.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\obj\Debug\net5.0\AnimalDeEstimacao.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\obj\Debug\net5.0\AnimalDeEstimacao.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\obj\Debug\net5.0\AnimalDeEstimacao.dll
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\obj\Debug\net5.0\ref\AnimalDeEstimacao.dll
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\obj\Debug\net5.0\AnimalDeEstimacao.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex3\obj\Debug\net5.0\AnimalDeEstimacao.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\bin\Debug\net5.0\CalculaMedia.exe
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\bin\Debug\net5.0\CalculaMedia.deps.json
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\bin\Debug\net5.0\CalculaMedia.runtimeconfig.json
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\bin\Debug\net5.0\CalculaMedia.runtimeconfig.dev.json
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\bin\Debug\net5.0\CalculaMedia.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\bin\Debug\net5.0\ref\CalculaMedia.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\bin\Debug\net5.0\CalculaMedia.pdb
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\obj\Debug\net5.0\CalculaMedia.csproj.AssemblyReference.cache
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\obj\Debug\net5.0\CalculaMedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\obj\Debug\net5.0\CalculaMedia.AssemblyInfoInputs.cache
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\obj\Debug\net5.0\CalculaMedia.AssemblyInfo.cs
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\obj\Debug\net5.0\CalculaMedia.csproj.CoreCompileInputs.cache
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\obj\Debug\net5.0\CalculaMedia.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\obj\Debug\net5.0\ref\CalculaMedia.dll
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\obj\Debug\net5.0\CalculaMedia.pdb
+C:\Users\Mariane Andrade\Documents\TropTech\Módulo 2\Método e sobrecarga\gabarito\CalculaMedia\obj\Debug\net5.0\CalculaMedia.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\bin\Debug\net5.0\ExercRetangulo.exe
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\bin\Debug\net5.0\ExercRetangulo.deps.json
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\bin\Debug\net5.0\ExercRetangulo.runtimeconfig.json
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\bin\Debug\net5.0\ExercRetangulo.runtimeconfig.dev.json
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\bin\Debug\net5.0\ExercRetangulo.dll
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\bin\Debug\net5.0\ExercRetangulo.pdb
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\ExercRetangulo.csproj.AssemblyReference.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\ExercRetangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\ExercRetangulo.AssemblyInfoInputs.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\ExercRetangulo.AssemblyInfo.cs
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\ExercRetangulo.csproj.CoreCompileInputs.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\ExercRetangulo.dll
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\refint\ExercRetangulo.dll
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\ExercRetangulo.pdb
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\ExercRetangulo.genruntimeconfig.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercRetangulo\obj\Debug\net5.0\ref\ExercRetangulo.dll

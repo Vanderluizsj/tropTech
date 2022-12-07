@@ -1,0 +1,15 @@
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\bin\Debug\net5.0\SerraLinhasAereas.Infra.Data.deps.json
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\bin\Debug\net5.0\SerraLinhasAereas.Infra.Data.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\bin\Debug\net5.0\ref\SerraLinhasAereas.Infra.Data.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\bin\Debug\net5.0\SerraLinhasAereas.Infra.Data.pdb
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\bin\Debug\net5.0\SerraLinhasAereas.Domain.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\bin\Debug\net5.0\SerraLinhasAereas.Domain.pdb
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\obj\Debug\net5.0\SerraLinhasAereas.Infra.Data.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\obj\Debug\net5.0\SerraLinhasAereas.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\obj\Debug\net5.0\SerraLinhasAereas.Infra.Data.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\obj\Debug\net5.0\SerraLinhasAereas.Infra.Data.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\obj\Debug\net5.0\SerraLinhasAereas.Infra.Data.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\obj\Debug\net5.0\SerraLinhasAereas.Infra.Data.csproj.CopyComplete
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\obj\Debug\net5.0\SerraLinhasAereas.Infra.Data.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\obj\Debug\net5.0\ref\SerraLinhasAereas.Infra.Data.dll
+D:\GitHub\aulas\tropTech\modulo2\VanderluizProjeto12_API\SerraLinhasAereas\SerraLinhasAereas.Infra.Data\obj\Debug\net5.0\SerraLinhasAereas.Infra.Data.pdb

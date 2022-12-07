@@ -1,0 +1,16 @@
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\obj\Debug\net5.0\Turma.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\obj\Debug\net5.0\Turma.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\obj\Debug\net5.0\Turma.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\obj\Debug\net5.0\Turma.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\obj\Debug\net5.0\Turma.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\bin\Debug\net5.0\Turma.exe
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\bin\Debug\net5.0\Turma.deps.json
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\bin\Debug\net5.0\Turma.runtimeconfig.json
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\bin\Debug\net5.0\Turma.runtimeconfig.dev.json
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\bin\Debug\net5.0\Turma.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\bin\Debug\net5.0\ref\Turma.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\bin\Debug\net5.0\Turma.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\obj\Debug\net5.0\Turma.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\obj\Debug\net5.0\ref\Turma.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\obj\Debug\net5.0\Turma.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Turma\obj\Debug\net5.0\Turma.genruntimeconfig.cache

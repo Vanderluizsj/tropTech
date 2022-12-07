@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="sstyle.css">
+    <title>Agenda!</title>
+</head>
+
+<body>
+    <div class="row text-center mb-4 card">
+        <div class="col">
+            <h1>Agenda!</h1>
+            <p>Cadastre os contatos na sua agenda.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-2">
+                <label for="primeiroNome">Nome:</label>
+            </div>
+            <div class="col-2">
+                <input id="primeiroNome" type="text" required />
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-4"></div>
+            <div class="col-2">
+                <label for="categoriaContato">Sobrenome:</label>
+            </div>
+            <div class="col-2">
+                <input id="sobrenome" type="text" required />
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-4"></div>
+            <div class="col-2">
+                <label for="categoriaContato">Telefone:</label>
+            </div>
+            <div class="col-2">
+                <input id="telefone" type="text" required />
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-4"></div>
+            <div class="col-1">
+                <input type="button" onclick="adicionarContato()" class="btn btn-success" value="Salvar">
+            </div>
+            <div class="col-1">
+                <input type="button" onclick="removerContato()" class="btn btn-danger" value="Remover">
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-4"></div>
+            <div class="col-8">
+                <h4>Lista de contatos:</h4>
+                <h6></h6>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="agenda.js"></script>
+</body>
+
+</html>

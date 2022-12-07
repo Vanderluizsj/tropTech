@@ -1,0 +1,16 @@
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\bin\Debug\net5.0\Cinema.exe
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\bin\Debug\net5.0\Cinema.deps.json
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\bin\Debug\net5.0\Cinema.runtimeconfig.json
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\bin\Debug\net5.0\Cinema.runtimeconfig.dev.json
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\bin\Debug\net5.0\Cinema.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\bin\Debug\net5.0\ref\Cinema.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\bin\Debug\net5.0\Cinema.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\obj\Debug\net5.0\Cinema.csproj.AssemblyReference.cache
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\obj\Debug\net5.0\Cinema.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\obj\Debug\net5.0\Cinema.AssemblyInfoInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\obj\Debug\net5.0\Cinema.AssemblyInfo.cs
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\obj\Debug\net5.0\Cinema.csproj.CoreCompileInputs.cache
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\obj\Debug\net5.0\Cinema.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\obj\Debug\net5.0\ref\Cinema.dll
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\obj\Debug\net5.0\Cinema.pdb
+D:\GitHub\aulas\tropTech\modulo2\lista_M2A6\Cinema\obj\Debug\net5.0\Cinema.genruntimeconfig.cache

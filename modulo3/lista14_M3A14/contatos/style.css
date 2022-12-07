@@ -1,0 +1,23 @@
+#tableAluno td {
+    cursor: pointer;
+}
+
+#tableAluno tr.feito td {
+    text-decoration: line-through;
+}
+#center {
+    margin: 0 auto !important;
+    float: none !important;
+}
+body{
+    background: rgb(171,232,237);
+    background: radial-gradient(circle, rgb(145, 235, 223) 0%, rgb(76, 134, 94) 100%);
+}
+#card{        
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(255, 255, 255, 0.295);
+        border-radius: 2rem;
+        border: 1px solid rgba(32, 87, 170, 0.3);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}

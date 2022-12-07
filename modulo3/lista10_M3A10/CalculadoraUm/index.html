@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+                <h2>Calculadora</h2>
+            </div>
+            <div class="col">
+                <h3>Resultado</h3>
+                <div id="Resultado"></div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col">
+                <label>Numero 1: </label>
+                <input type="number" id="primeiroNumero">
+            </div>
+        </div>
+        <div  class="row mt-2">
+            <div class="col">
+                <label>Numero 2: </label>
+                <input type="number" id="segundoNumero">
+            </div>
+        </div>
+        <div  class="row mt-2">
+            <div class="col">
+                <button type="button" class="btn btn-primary" onclick="somar()"> + </button>
+                <button type="button" class="btn btn-primary" onclick="subtrair()"> - </button>
+                <button type="button" class="btn btn-primary" onclick="dividir()"> / </button>
+                <button type="button" class="btn btn-primary" onclick="multiplicar()"> x </button>
+                <button type="button" class="btn btn-primary" onclick="potencia()"> ^ </button>
+                <button type="button" class="btn btn-primary" onclick="limpar()"> C </button>
+            </div>            
+        </div>
+    </div>
+    
+    <script src="../script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

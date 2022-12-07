@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Agenda
 {
@@ -6,29 +7,43 @@ namespace Agenda
     {
         static void Main(string[] args)
         {
-            var itens = new ItemDaAgenda[];
+            var contatos = new ItemDaAgenda[5];
 
             for (int i = 0; i < 2; i++)
             {
-                ItemDaAgenda novoItem;
+                ItemDaAgenda novocontato;
 
-                Console.Write("Nome: ");
+                Console.Write("Digite o nome: ");
                 var nome = Console.ReadLine();
 
-                Console.Write("Telefone: ");
+                Console.Write("Digite o telefone: ");
                 var telefone = Console.ReadLine();
 
-                Console.Write("Endereço: ");
+                Console.Write("Digite o endereço: ");
                 var endereco = Console.ReadLine();
 
-                Console.Write("Profissão: ");
+                Console.Write("Digite a profissão: ");
                 var profissao = Console.ReadLine();
 
-                if (IsNullOrEmpty(profissao) && IsNullOrEmpty(endereco))
+                if (String.IsNullOrEmpty(profissao) && String.IsNullOrEmpty(endereco))
                 {
-                    novoItem = new ItemDaAgenda(nome, telefone);
+                    novocontato = new ItemDaAgenda(nome, telefone);
+                }               
+                else
+                {
+                    novocontato = new ItemDaAgenda(nome, telefone, endereco, profissao);
                 }
+
+                contatos[i] = novocontato;
             }
+
+            for (int i = 0; i < ItemDaAgenda.QuantidadeDecontatosNaAgenda; i++)
+            {
+                var contato = contatos[i];
+                Console.WriteLine($"{contato.Nome}, Tel. {contato.Telefone}, End. {contato.Endereco}, Profissão {contato.Profissao}");
+            }
+
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\bin\Debug\net5.0\ExercData.exe
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\bin\Debug\net5.0\ExercData.deps.json
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\bin\Debug\net5.0\ExercData.runtimeconfig.json
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\bin\Debug\net5.0\ExercData.runtimeconfig.dev.json
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\bin\Debug\net5.0\ExercData.dll
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\bin\Debug\net5.0\ExercData.pdb
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\ExercData.csproj.AssemblyReference.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\ExercData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\ExercData.AssemblyInfoInputs.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\ExercData.AssemblyInfo.cs
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\ExercData.csproj.CoreCompileInputs.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\ExercData.dll
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\refint\ExercData.dll
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\ExercData.pdb
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\ExercData.genruntimeconfig.cache
+C:\Users\anna.laura\Documents\TropTech\Aulas\M2A2 - Propriedades\Exercicios\ExercData\obj\Debug\net5.0\ref\ExercData.dll

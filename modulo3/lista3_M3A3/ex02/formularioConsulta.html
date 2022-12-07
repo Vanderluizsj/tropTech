@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador</title>
+</head>
+<body>
+    <h1>Gerenciador de Consulta!</h1>
+    <p>Cadastrar uma consulta médica</p>
+    <form action="./sucesso-consulta.html" method="get">
+        <div>
+            <label for="nomePaciente">Nome do paciente:</label>
+            <input id="nomePaciente" type="text" required/>
+        </div>
+        <br>
+        <div>
+            <label for="cpfPaciente">CPF do contato:</label>
+            <input id="cpfPaciente" type="string" required/>
+        </div>
+        <br>
+        <div>
+            <label for="dataConsulta">Data da consulta:</label>
+            <input id="dataConsulta" type="date" required/>
+        </div>
+        <br>
+        <div>
+            <label for="descricaoConsulta">Descrição</label>
+            <br>
+            <textarea id="descricaoConsulta" cols="30" rows="10" required></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="medicoConsulta">Médico (a):</label>
+            <select id="medicoConsulta" required>
+                <option value="1">Dra Paula</option>
+                <option value="2">Dr Joaquim</option>
+                <option value="3">Dr Camila</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="pesoPaciente">Peso do paciente:</label>
+            <input id="pesoPaciente" type="number" min="0" step="0.1"/>
+        </div>
+        <br>
+
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>

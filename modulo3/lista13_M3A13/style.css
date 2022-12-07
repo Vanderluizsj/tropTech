@@ -1,0 +1,12 @@
+body{
+    background: rgb(171,232,237);
+    background: radial-gradient(circle, rgba(171,232,237,1) 0%, rgba(6,29,230,1) 100%);
+}
+.card{        
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(255, 255, 255, 0.411);
+        border-radius: 12px;
+        border: 1px solid rgba(19, 70, 146, 0.3);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}

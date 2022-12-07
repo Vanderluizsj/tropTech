@@ -1,5 +1,0 @@
-d:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex1\obj\Debug\net5.0\Agenda.csproj.AssemblyReference.cache
-d:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex1\obj\Debug\net5.0\Agenda.GeneratedMSBuildEditorConfig.editorconfig
-d:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex1\obj\Debug\net5.0\Agenda.AssemblyInfoInputs.cache
-d:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex1\obj\Debug\net5.0\Agenda.AssemblyInfo.cs
-d:\GitHub\aulas\tropTech\modulo2\lista1C#_M2A1\ex1\obj\Debug\net5.0\Agenda.csproj.CoreCompileInputs.cache

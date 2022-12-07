@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zQ7WPyPStVQJB9OtKjHiomAfjR3pSMawNn5ZlQfsa06OqE1DH8JlIQYBZI0PCgbtmkw6uzZpk5jFg3tVK9q7SQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anna.laura\\Documents\\TropTech\\Aulas\\M2A2 - Propriedades\\Exercicios\\ExercRetangulo\\ExercRetangulo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anna.laura\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

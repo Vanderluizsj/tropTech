@@ -1,0 +1,17 @@
+.container{
+    margin-left: 7rem;
+    padding-top: 0.5rem;
+}
+div{
+    padding-left: 2rem;
+}
+.card{
+    border-radius: 0.5rem;
+    background-color: rgba(182, 174, 174, 0.425);
+    color: rgb(247, 248, 248);
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,185,204,0.4682247899159664) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

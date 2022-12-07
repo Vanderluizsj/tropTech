@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.WebApi\\SerraLinhasAereas.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Domain\\SerraLinhasAereas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Domain\\SerraLinhasAereas.Domain.csproj",
+        "projectName": "SerraLinhasAereas.Domain",
+        "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Domain\\SerraLinhasAereas.Domain.csproj",
+        "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Infra.Data\\SerraLinhasAereas.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Infra.Data\\SerraLinhasAereas.Infra.Data.csproj",
+        "projectName": "SerraLinhasAereas.Infra.Data",
+        "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Infra.Data\\SerraLinhasAereas.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Domain\\SerraLinhasAereas.Domain.csproj": {
+                "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Domain\\SerraLinhasAereas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.WebApi\\SerraLinhasAereas.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.WebApi\\SerraLinhasAereas.WebApi.csproj",
+        "projectName": "SerraLinhasAereas.WebApi",
+        "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.WebApi\\SerraLinhasAereas.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Amishel\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Amishel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Domain\\SerraLinhasAereas.Domain.csproj": {
+                "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Domain\\SerraLinhasAereas.Domain.csproj"
+              },
+              "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Infra.Data\\SerraLinhasAereas.Infra.Data.csproj": {
+                "projectPath": "D:\\GitHub\\aulas\\tropTech\\modulo2\\VanderluizProjeto12_API\\SerraLinhasAereas\\SerraLinhasAereas.Infra.Data\\SerraLinhasAereas.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

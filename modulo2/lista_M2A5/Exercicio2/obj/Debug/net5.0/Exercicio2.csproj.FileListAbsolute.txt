@@ -1,0 +1,16 @@
+C:\Projects\Structs\Exercicio2\bin\Debug\net5.0\Exercicio2.exe
+C:\Projects\Structs\Exercicio2\bin\Debug\net5.0\Exercicio2.deps.json
+C:\Projects\Structs\Exercicio2\bin\Debug\net5.0\Exercicio2.runtimeconfig.json
+C:\Projects\Structs\Exercicio2\bin\Debug\net5.0\Exercicio2.runtimeconfig.dev.json
+C:\Projects\Structs\Exercicio2\bin\Debug\net5.0\Exercicio2.dll
+C:\Projects\Structs\Exercicio2\bin\Debug\net5.0\Exercicio2.pdb
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\Exercicio2.csproj.AssemblyReference.cache
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\Exercicio2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\Exercicio2.AssemblyInfoInputs.cache
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\Exercicio2.AssemblyInfo.cs
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\Exercicio2.csproj.CoreCompileInputs.cache
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\Exercicio2.dll
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\refint\Exercicio2.dll
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\Exercicio2.pdb
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\Exercicio2.genruntimeconfig.cache
+C:\Projects\Structs\Exercicio2\obj\Debug\net5.0\ref\Exercicio2.dll

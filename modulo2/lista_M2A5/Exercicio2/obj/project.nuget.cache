@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hvj5J8GjU4w+EzTf22MI7FjixA0CdCeYHF8/QnlO6b9heCBPEAEVppeHKO7klG7JX6C6RmcpXm1B+fFX6zKONw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Structs\\Exercicio2\\Exercicio2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ramon.wolff\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

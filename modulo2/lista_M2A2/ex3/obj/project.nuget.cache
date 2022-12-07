@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4tDY2R2+2NqI0YMwLTd/mbk0CKuba0x6avJJefI1CItBhZVuwYEipsfWmTK6Kr1i7evcMzWu/q7IBtoQIDFwmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anna.laura\\Documents\\TropTech\\Aulas\\M2A2 - Propriedades\\Exercicios\\ExercDataBonus\\ExercData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anna.laura\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
